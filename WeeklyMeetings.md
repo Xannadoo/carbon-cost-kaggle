@@ -30,11 +30,13 @@ Google.
 #### What would you like to work on next week?
 
 * Continue with how to run the first project
-* Start looking at the next one
+* Test the requirements.txt file on Sanna's computer
+* Finish setting up a requirements.txt file for HPC
+* Start looking at the next submission where code is available
 
 #### Where do you need help from Veronika?
 
-* 
+* It seems some packages used are outdated. Is it ok if we use different versions of packages for the environment? 
 
 #### Any other topics
 
