@@ -1,4 +1,10 @@
-### Date: [13-02-2023]
+# Dee and Sanna's Weekly Meeting Notes
+
+* [13 February 2023](#date-12-february-2023)
+
+* [Template](template-date-dd-month-yyyy)
+
+### Date: 13th February 2023
 
 #### Who did you help this week?
 
