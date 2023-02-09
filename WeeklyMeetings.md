@@ -1,6 +1,6 @@
 # Dee and Sanna's Weekly Meeting Notes
 
-* [13 February 2023](#date-12-february-2023)
+* [13 February 2023](#date-13-february-2023)
 
 * [Template](template-date-dd-month-yyyy)
 
@@ -8,40 +8,44 @@
 
 #### Who did you help this week?
 
-Replace this text with a one/two sentence description of who you helped this week and how.
-
+Each other.
 
 #### Who helped you this week?
 
-Replace this text with a one/two sentence description of who helped you this week and how.
+Google.
 
 #### What did you achieve?
 
-* Replace this text with a bullet point list of what you achieved this week.
-* It's ok if your list is only one bullet point long!
+* Found 3 github repos for high ranking teams for the Kaggle lung cancer challenge:
+	* 1st https://github.com/lfz/DSB2017
+	* 2nd https://github.com/juliandewit/kaggle_ndsb2017
+	* 7th https://github.com/NDKoehler/DataScienceBowl2017_7th_place
+
+* Started working on how to actually run the first one.
 
 #### What did you struggle with?
 
-* Replace this text with a bullet point list of where you struggled this week.
-* It's ok if your list is only one bullet point long!
+* Working out how to handle requirements for each repo, and looking at how to make the code run.
 
 #### What would you like to work on next week?
 
-* Replace this text with a bullet point list of what you would like to work on next week.
-* It's ok if your list is only one bullet point long!
-* Try to estimate how long each task will take.
+* Continue with how to run the first project
+* Start looking at the next one
 
 #### Where do you need help from Veronika?
 
-* Replace this text with a bullet point list of what you need help from Kirstie on.
-* It's ok if your list is only one bullet point long!
-* Try to estimate how long each task will take.
+* 
 
 #### Any other topics
 
 This space is yours to add to as needed.
 
-### Date: [INSERT DATE OF MEETING]
+
+
+
+
+
+### Date: [Template]
 
 #### Who did you help this week?
 
@@ -70,7 +74,7 @@ Replace this text with a one/two sentence description of who helped you this wee
 
 #### Where do you need help from Veronika?
 
-* Replace this text with a bullet point list of what you need help from Kirstie on.
+* Replace this text with a bullet point list of what you need help from Veronika on.
 * It's ok if your list is only one bullet point long!
 * Try to estimate how long each task will take.
 
