@@ -20,26 +20,25 @@ See above.
 * Found the kaggle datasets (not so straightforward as expected)
 	* https://academictorrents.com/details/015f31a94c600256868be155358dc114157507fc	
 * Found supplementary data
-	* 1st https://github.com/lfz/DSB2017
+	* [1st](https://github.com/lfz/DSB2017)
 		* [Luna 16 Grand Challenge](https://luna16.grand-challenge.org/Download/)
-	* 2nd https://github.com/juliandewit/kaggle_ndsb2017
+	* [2nd](https://github.com/juliandewit/kaggle_ndsb2017)
 		* None needed
-	* 7th https://github.com/NDKoehler/DataScienceBowl2017_7th_place
+	* [7th](https://github.com/NDKoehler/DataScienceBowl2017_7th_place)
 		* [Luna 16 Grand Challenge](https://luna16.grand-challenge.org/Download/)
 
 #### What did you struggle with?
 
 * Finding the data for the competition.
-* 
 
 #### What would you like to work on next week?
 
 * The following items are needed for each project to work:
-	* 1st https://github.com/lfz/DSB2017
+	* [1st](https://github.com/lfz/DSB2017)
 		* nothing is apparently missing
-	* 2nd https://github.com/juliandewit/kaggle_ndsb2017
+	* [2nd](https://github.com/juliandewit/kaggle_ndsb2017)
 		* nothing is apparently missing
-	* 7th https://github.com/NDKoehler/DataScienceBowl2017_7th_place
+	* [7th](https://github.com/NDKoehler/DataScienceBowl2017_7th_place)
 		* Checkpoint folder is required to run the project, but it has been removed from dropbox
 
 #### Where do you need help from Veronika?
@@ -81,8 +80,6 @@ Google.
 #### Where do you need help from Veronika?
 
 * It seems some packages used are outdated. Is it ok if we use different versions of packages for the environment? 
-
-
 
 
 
