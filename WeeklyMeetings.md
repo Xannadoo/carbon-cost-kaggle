@@ -44,8 +44,7 @@ See above.
 #### Where do you need help from Veronika?
 
 * Guidance on problem solving finding the data/missing elements
-
-
+* Is it safe to download the data to the HPC from the sources we found?
 
 ### Date: 13th February 2023
 
