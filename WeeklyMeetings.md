@@ -58,7 +58,7 @@ See above.
 
 * Guidance on problem solving finding the data/missing elements
 * Is it safe to download the data to the HPC from the sources we found?
-* Regarding competitions with a <9hr runtime requirement, is it ok if we investigate 2 competitions with this requirement?
+* Next week... can we meet Thursday since the PURRlab event is also Thursday, and we will be at ITU?
 
 ### Date: 13th February 2023
 
