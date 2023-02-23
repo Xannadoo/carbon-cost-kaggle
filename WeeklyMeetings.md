@@ -1,11 +1,11 @@
 # Dee and Sanna's Weekly Meeting Notes
-* [18 February 2023](#date-18-february-2023)
+* [23 February 2023](#date-23-february-2023)
 
 * [13 February 2023](#date-13-february-2023)
 
 * [Template](template-date-dd-month-yyyy)
 
-### Date:  18th February 2023
+### Date:  23rd February 2023
 
 #### Who did you help this week?
 
@@ -27,6 +27,15 @@ See above.
 	* [7th](https://github.com/NDKoehler/DataScienceBowl2017_7th_place)
 		* [Luna 16 Grand Challenge](https://luna16.grand-challenge.org/Download/)
 
+* We found competitions that are complete, have publically available code, and have publically available data:
+	* [RSNA 2022 Cervical Spine Fracture Detection](https://www.kaggle.com/competitions/rsna-2022-cervical-spine-fracture-detection)
+	* [RSNA Breast Cancer Detection](https://www.kaggle.com/competitions/rsna-breast-cancer-detection)
+		* Might not have publically available code in time
+		* Is it too similar to the Cervical Spine Competition (<9hr run time restriction on code?)
+	* 
+
+* We learned that the category "code competition" on kaggle means teams submit code vs a trained model. Therefore competitions with this tag are more likely to have publically available code. We are thinking to narrow our investigation to competitions with the tag **code competition**. Furthermore, these types of competitions have restrictions regarding resources and environments, as well as maximum runtime. This might reduce the amount of confounding factors as well as make it easier to extrapolate on our findings. 
+
 #### What did you struggle with?
 
 * Finding the data for the competition.
@@ -41,10 +50,13 @@ See above.
 	* [7th](https://github.com/NDKoehler/DataScienceBowl2017_7th_place)
 		* Checkpoint folder is required to run the project, but it has been removed from dropbox
 
+* Download data for cervical 
+
 #### Where do you need help from Veronika?
 
 * Guidance on problem solving finding the data/missing elements
 * Is it safe to download the data to the HPC from the sources we found?
+* Regarding competitions with a <9hr runtime requirement, is it ok if we investigate 2 competitions with this requirement?
 
 ### Date: 13th February 2023
 
