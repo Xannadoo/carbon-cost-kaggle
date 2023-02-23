@@ -50,7 +50,9 @@ See above.
 	* [7th](https://github.com/NDKoehler/DataScienceBowl2017_7th_place)
 		* Checkpoint folder is required to run the project, but it has been removed from dropbox
 
-* Download data for cervical 
+* We are moving on from the lung cancer competition for now.
+* Download data for cervical spine fracture detection
+* Attempt running code for the cervical spine fracture detection competition
 
 #### Where do you need help from Veronika?
 
