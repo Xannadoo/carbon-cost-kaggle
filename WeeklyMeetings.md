@@ -1,9 +1,44 @@
 # Dee and Sanna's Weekly Meeting Notes
+* [26 February 2023](#date-26-february-2023)
+
 * [23 February 2023](#date-23-february-2023)
 
 * [13 February 2023](#date-13-february-2023)
 
 * [Template](template-date-dd-month-yyyy)
+
+### Date: 26rd February 2023
+
+#### Who did you help this week?
+
+Each other
+
+#### Who helped you this week?
+
+Each other
+
+#### What did you achieve?
+
+* We learned that there are competitions on kaggle tagged as "code competitions". In these, the participants submit code, which kaggle will then run on their machines. We further noticed that code competitions tend to have a higher submission rate per team, with some teams up to 300 submissions, compared to competitions where a team submits an already trained model. It seems that this method of submission allows for a better tracking of the amount of times code is run, since the model-submission format does not indicate the amount of times a team trained a model for parameter tuning. Therefore, we believe we will get a more accurate result of the carbon footprint by looking into a code compeitions.
+* Furthermore, code competitions are run by teams submitting code. Therefore the code is often publically available.
+* The first competition we will be looking into is [SIIM-FISABIO-RSNA COVID-19 Detection](https://www.kaggle.com/competitions/siim-covid19-detection/)
+
+#### What did you struggle with?
+
+* We are moving on from the Data Science Bowl 2017 due to issues finding runable publically available code (much of the code we found used legacy languages and packages that are no longer supported), and issues finding a trustworthy source of data.
+
+#### What would you like to work on next week?
+
+* Working on a notebook to submit to the competition and run carbon-tracker on.
+
+#### Where do you need help from Veronika?
+
+* 
+
+#### Any other topics
+
+*
+
 
 ### Date:  23rd February 2023
 
