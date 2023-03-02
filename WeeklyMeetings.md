@@ -1,4 +1,6 @@
 # Dee and Sanna's Weekly Meeting Notes
+* [2 March 2023](#date-26-february-2023)
+
 * [26 February 2023](#date-26-february-2023)
 
 * [23 February 2023](#date-23-february-2023)
@@ -7,7 +9,38 @@
 
 * [Template](template-date-dd-month-yyyy)
 
-### Date: 26rd February 2023
+
+### Date: 2nd March 2023
+
+#### Who did you help this week?
+--
+
+#### Who helped you this week?
+--
+
+#### What did you achieve?
+
+* Uploaded COVID competition data to HPC
+* Began working through the instructions for running team 1's code (their [github](https://github.com/dungnb1333/SIIM-COVID19-Detection/tree/982a6b12955e8f53ec3f8af46754251b1678e08c)). Got through stage 2.1.
+
+#### What did you struggle with?
+
+* I tried running some teams' submission notebooks. While teams submit \textit{just one notebook}, if often requires a larger repository to run. It doesn't seem sufficient to run their submission notebook alone.
+
+#### What would you like to work on next week?
+
+* Download the rest of the external data for team one.
+* Finish working on getting their code running (with a small sample of data)
+
+#### Where do you need help from Veronika?
+
+* 
+
+#### Any other topics
+--
+
+
+### Date: 26th February 2023
 
 #### Who did you help this week?
 
