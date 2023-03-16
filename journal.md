@@ -4,12 +4,13 @@
 * [16 March 2023](#16-march-2023)
 
 
-
 ### 16 March 2023
  - Discussed accessing stuff on hpc as can't see what the other has done there. Is a shared folder possible?
  - Forked Dovile's repo to the project.
      + We spoke with her last Thursday and talked through the code, and she suggested some things we probably want to remove (like the mlflow tracking parts) and where might work to insert the code for the carbontracker.
      + Is all the data on HPC? (mammagrams, imagenet)
+     + Started working on reproducing it on the hpc.
+     + Got stuck with creating the conda env as it got upset about a conflict. Removed mlflow & boto from the .yaml as we aren't using that part of the code and the conflict seemed to be with one of them.
 
 ### March 2023
  - Downloaded covid data and uploaded to the hpc. Took ~5 hours.

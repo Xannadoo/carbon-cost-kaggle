@@ -1,16 +1,48 @@
 # Dee and Sanna's Weekly Meeting Notes
-* [2 March 2023](#date-26-february-2023)
-
-* [26 February 2023](#date-26-february-2023)
-
-* [23 February 2023](#date-23-february-2023)
-
-* [13 February 2023](#date-13-february-2023)
-
-* [Template](template-date-dd-month-yyyy)
+* [20th March 2023](#20th-march-2023)
+* [2nd March 2023](#2nd-march-2023)
+* [26th February 2023](#26th-february-2023)
+* [23rd February 2023](#23rd-february-2023)
+* [13th February 2023](#13th-february-2023)
+* [Template](#day-month-year)
 
 
-### Date: 2nd March 2023
+### 20th March 2023
+
+#### Who did you help this week?
+
+Replace this text with a one/two sentence description of who you helped this week and how.
+
+
+#### Who helped you this week?
+
+* Dovile - talked us through her code from her [Revisiting Hidden Representations in Transfer Learning for Medical Imaging](https://github.com/DovileDo/revisiting-transfer) project
+
+#### What did you achieve?
+
+* 
+
+#### What did you struggle with?
+
+* The real world. We already had delays due to my getting sick, then Dee had a family tragedy.
+* Matching up datasets in the hpc. We haven't used the hpc much for a while and navigating can be interesting.
+
+#### What would you like to work on next week?
+
+* Actually getting some code to run properly.
+	- if so, getting the carbontracker working.
+
+#### Where do you need help from Veronika?
+
+* 
+
+#### Any other topics
+
+This space is yours to add to as needed.
+
+
+
+### 2nd March 2023
 
 #### Who did you help this week?
 --
@@ -40,7 +72,7 @@
 --
 
 
-### Date: 26th February 2023
+### 26th February 2023
 
 #### Who did you help this week?
 
@@ -74,7 +106,7 @@ Each other
 
 
 
-### Date:  23rd February 2023
+### 23rd February 2023
 
 #### Who did you help this week?
 
@@ -127,7 +159,7 @@ See above.
 * Next week... can we meet Thursday since the PURRlab event is also Thursday, and we will be at ITU?
 
 
-### Date: 13th February 2023
+### 13th February 2023
 
 #### Who did you help this week?
 
@@ -163,7 +195,7 @@ Google.
 
 
 
-### Date: [Template]
+### day month year Template
 
 #### Who did you help this week?
 
