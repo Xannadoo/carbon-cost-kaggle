@@ -2,7 +2,10 @@
 * [February 2023](#february-2023)
 * [March 2023](#march-2023)
 * [16 March 2023](#16-march-2023)
+* [18 March 2023](#18-march-2023)
 
+### 18 March 2023
+- Spent ~3 hours working out how to run the yaml file to create an environment for the revisiting-transfer project. Found the bugs, pushed changes to github, and created an environment on HPC. There was one package, ```tensorflow-gpu==2.8.0``` that would only work if pip installed, and not as a dependency as it was in the original yaml file.
 
 ### 16 March 2023
  - Discussed accessing stuff on hpc as can't see what the other has done there. Is a shared folder possible?
