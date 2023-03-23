@@ -10,7 +10,10 @@
 - Changed home path to data folders in the ```make_dataframe.py``` file
 - Changed name of the mammograms dataset folder to "cbis-ddsm" in the ```data_paths.py``` file
 - Make a job file to create the dataframes. Attempted to run job. Getting error related to ```import cv2```
--
+- Comment out previous import, and getting error with tensorflow. running ```conda install -c conda-forge tensorflow``` in the environment. 
+- We do not have access to environments that the other creates. Asked Lottie if we can share access to envs. 
+- Next, need to run the job again and see if it gives the tensorflow related errors.
+
 
 
 ### 18 March 2023
