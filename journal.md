@@ -3,6 +3,15 @@
 * [March 2023](#march-2023)
 * [16 March 2023](#16-march-2023)
 * [18 March 2023](#18-march-2023)
+* [23 March 2023](#23-march-2023)
+
+### 23 March 2023
+- Added carbon tracker to the yaml file, and created the environment.
+- Changed home path to data folders in the ```make_dataframe.py``` file
+- Changed name of the mammograms dataset folder to "cbis-ddsm" in the ```data_paths.py``` file
+- Make a job file to create the dataframes. Attempted to run job. Getting error related to ```import cv2```
+-
+
 
 ### 18 March 2023
 - Spent ~3 hours working out how to run the yaml file to create an environment for the revisiting-transfer project. Found the bugs, pushed changes to github, and created an environment on HPC. There was one package, ```tensorflow-gpu==2.8.0``` that would only work if pip installed, and not as a dependency as it was in the original yaml file.
