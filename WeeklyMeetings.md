@@ -15,7 +15,8 @@ Each other.
 
 #### Who helped you this week?
 
-Dovile helped us find the mammograms data, which had been named "cbis-ddsm" on the HPC, not "mammograms" as it was in her code.
+* Dovile helped us find the mammograms data, which had been named "cbis-ddsm" on the HPC, not "mammograms" as it was in her code.
+* Lottie explained how to make a shared environment, and how to make a batch file to create an environment and install packages
 
 #### What did you achieve?
 
@@ -27,8 +28,9 @@ Dovile helped us find the mammograms data, which had been named "cbis-ddsm" on t
 
 #### What did you struggle with?
 
-* Conda installing packages on the HPC is taking >1hour each. It is excrutiating. Asked Lottie if we are doing something wrong, or if the HPC is just slow today.
-* We do not have access to conda envs that the other creates. This is inconvenient. Asked Lottie if we can share envs. Awaiting response
+* Conda installing packages on the HPC is taking >1hour each. It is excrutiating. Lottie says HPC is just slow today.
+* We do not have access to conda envs that the other creates. This is inconvenient. We are running a batch file to create a shared env
+* Can't get the environment to work with sklearn.
 
 #### What would you like to work on next week?
 
@@ -38,7 +40,7 @@ Dovile helped us find the mammograms data, which had been named "cbis-ddsm" on t
 
 #### Where do you need help from Veronika?
 
-* 
+* Understanding HPC. For example, loading multiple modules. Can we load an environment and load tensorflow as shown on the HPC.itu.dk site?
 
 #### Any other topics
 
