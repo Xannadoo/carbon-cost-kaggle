@@ -1,4 +1,5 @@
 # Dee and Sanna's Weekly Meeting Notes
+* [23th March 2023](#23rd-march-2023)
 * [20th March 2023](#20th-march-2023)
 * [2nd March 2023](#2nd-march-2023)
 * [26th February 2023](#26th-february-2023)
@@ -6,13 +7,50 @@
 * [13th February 2023](#13th-february-2023)
 * [Template](#day-month-year)
 
+### 23rd March 2023
+
+#### Who did you help this week?
+
+Each other.
+
+#### Who helped you this week?
+
+Dovile helped us find the mammograms data, which had been named "cbis-ddsm" on the HPC, not "mammograms" as it was in her code.
+
+#### What did you achieve?
+
+* Added carbon tracker to the yaml file, and created the environment.
+* Changed home path to data folders in the ```make_dataframe.py``` file
+* Changed name of the mammograms dataset folder to "cbis-ddsm" in the ```data_paths.py``` file
+* Make a job file to create the dataframes. Attempted to run job. Getting error related to ```import cv2```
+* Comment out ```import cv2```, as it doesn't seem needed to make the data splits. Getting error with tensorflow. running ```conda install -c conda-forge tensorflow``` in the environment. It has taken >1hour
+
+#### What did you struggle with?
+
+* Conda installing packages on the HPC is taking >1hour each. It is excrutiating. Asked Lottie if we are doing something wrong, or if the HPC is just slow today.
+* We do not have access to conda envs that the other creates. This is inconvenient. Asked Lottie if we can share envs. Awaiting response
+
+#### What would you like to work on next week?
+
+* We need to run the revi.job again and see if it gives the tensorflow related errors, or if it creates the dataframes
+* Ideally we would make the data splits and train the model with carbontracker
+* Work on getting 1 kaggle challenge participant's code to run
+
+#### Where do you need help from Veronika?
+
+* 
+
+#### Any other topics
+
+*
+
+
 
 ### 20th March 2023
 
 #### Who did you help this week?
 
-Replace this text with a one/two sentence description of who you helped this week and how.
-
+--
 
 #### Who helped you this week?
 
@@ -20,7 +58,7 @@ Replace this text with a one/two sentence description of who you helped this wee
 
 #### What did you achieve?
 
-* 
+--
 
 #### What did you struggle with?
 
@@ -34,12 +72,11 @@ Replace this text with a one/two sentence description of who you helped this wee
 
 #### Where do you need help from Veronika?
 
-* 
+--
 
 #### Any other topics
 
-This space is yours to add to as needed.
-
+--
 
 
 ### 2nd March 2023
