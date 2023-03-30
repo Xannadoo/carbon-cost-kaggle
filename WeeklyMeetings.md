@@ -96,7 +96,7 @@ Each other.
 
 #### What did you struggle with?
 
-* I tried running some teams' submission notebooks. While teams submit \textit{just one notebook}, if often requires a larger repository to run. It doesn't seem sufficient to run their submission notebook alone.
+* I tried running some teams' submission notebooks. While teams submit *just one notebook*, if often requires a larger repository to run. It doesn't seem sufficient to run their submission notebook alone.
 
 #### What would you like to work on next week?
 
