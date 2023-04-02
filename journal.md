@@ -11,7 +11,7 @@
 - Attempted to solve path issues on HPC with conda. Updated conda. Used module load for sklearn, then got tensorflow issues. Used module load for tensorflow, and found out that it does not coordinate well with other packages if there is a discrepency in package versions. After many emails back-and-forth between HPC, we realize that a workshop on how to properly use HPC and setup environments would have saved us now 14+ hours of our lives.
 - Abandoned anaconda, and am using pip for environments. Created a requirements.txt and a new job file to create the env and run the first job, which is just to make the dataframes.
 - Restarting work on the 2nd place team for the [SIIM-FISABIO-RSNA COVID-19 Detection](https://www.kaggle.com/competitions/siim-covid19-detection/discussion/) kaggle challenge. Their github is located [here](https://github.com/nvnnghia/siim2021).
-    - Crated a branch of the repo 
+    - Created a branch of the repo. Cloned branch locally and on the HPC in the shared "ccdd" folder.
 
 
 ### 23 March 2023
