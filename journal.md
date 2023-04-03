@@ -12,7 +12,8 @@
 - Abandoned anaconda, and am using pip for environments. Created a requirements.txt and a new job file to create the env and run the first job, which is just to make the dataframes.
 - Restarting work on the 2nd place team for the [SIIM-FISABIO-RSNA COVID-19 Detection](https://www.kaggle.com/competitions/siim-covid19-detection/discussion/) kaggle challenge. Their github is located [here](https://github.com/nvnnghia/siim2021).
     - Created a branch of the repo. Cloned branch locally and on the HPC in the shared "ccdd" folder.
-    - On the HPC, in pipeline1, completed the first 3 steps of part 1.Installation
+    - On the HPC, in pipeline1, completed part 1.Installation. (Sanna will have to complete this separately, as there is no shared environment)
+    - Next steps for pipeline1 are part 2:Data Preparation, and part 3:Training 
 
 
 ### 23 March 2023
