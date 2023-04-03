@@ -1,4 +1,5 @@
 # Dee and Sanna's Weekly Meeting Notes
+* [4th April 2023](#4th-april-2023)
 * [23th March 2023](#23rd-march-2023)
 * [20th March 2023](#20th-march-2023)
 * [2nd March 2023](#2nd-march-2023)
@@ -6,6 +7,37 @@
 * [23rd February 2023](#23rd-february-2023)
 * [13th February 2023](#13th-february-2023)
 * [Template](#day-month-year)
+
+
+
+### 4th April 2023
+
+#### Who did you help this week?
+- 
+
+#### Who helped you this week?
+- Spent 14+ hours trying to problem solve environment issues on the HPC. Lottie helped solving problems. Solution was using pip and not anaconda, with module load for sklearn and tensorflow.
+
+#### What did you achieve?
+* Got a working environment for Dovile's project.
+* Re-ran the code for Dovile's project to make the dataframes.
+* Restarted work on the 2nd place team for the [SIIM-FISABIO-RSNA COVID-19 Detection](https://www.kaggle.com/competitions/siim-covid19-detection/discussion/) kaggle challenge. Their github is located [here](https://github.com/nvnnghia/siim2021).
+    - Created a branch of the repo. Cloned branch locally and on the HPC in the shared "ccdd" folder.
+    - On the HPC, in pipeline1, completed part 1.Installation.
+
+#### What did you struggle with?
+* Getting working environments on the HPC. A workshop on setting up environments on HPC would have been amazing. Why does ITU not do this?
+
+#### What would you like to work on next week?
+* For the second place team, pipeline1, finishing step 2 Data Preparation, and start step 3 Training.
+
+#### Where do you need help from Veronika?
+* 
+
+#### Any other topics
+-
+
+
 
 ### 23rd March 2023
 
