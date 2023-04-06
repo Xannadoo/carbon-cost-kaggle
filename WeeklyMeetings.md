@@ -24,6 +24,7 @@
 * Restarted work on the 2nd place team for the [SIIM-FISABIO-RSNA COVID-19 Detection](https://www.kaggle.com/competitions/siim-covid19-detection/discussion/) kaggle challenge. Their github is located [here](https://github.com/nvnnghia/siim2021).
     - Created a branch of the repo. Cloned branch locally and on the HPC in the shared "ccdd" folder.
     - On the HPC, in pipeline1, completed part 1.Installation.
+    - In pipeline1 downloaded the first dataset (resized SIIM2021) to the HPC
 
 #### What did you struggle with?
 * Getting working environments on the HPC. A workshop on setting up environments on HPC would have been amazing. Why does ITU not do this?
