@@ -5,7 +5,11 @@
 * [18 March 2023](#18-march-2023)
 * [23 March 2023](#23-march-2023)
 * [1 April 2023](#1-April-2023)
+* [6 April 2023](#6-April-2023)
 
+
+### 1 April 2023
+- The 2nd place team requires 2 datasets for training in pipeline1 for part 2.Data Preparation. Downloaded the first dataset (resized SIIM2021) to the HPC
 
 ### 1 April 2023
 - Attempted to solve path issues on HPC with conda. Updated conda. Used module load for sklearn, then got tensorflow issues. Used module load for tensorflow, and found out that it does not coordinate well with other packages if there is a discrepency in package versions. After many emails back-and-forth between HPC, we realize that a workshop on how to properly use HPC and setup environments would have saved us now 14+ hours of our lives.
