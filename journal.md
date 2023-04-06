@@ -8,7 +8,7 @@
 * [6 April 2023](#6-April-2023)
 
 
-### 1 April 2023
+### 6 April 2023
 - The 2nd place team requires 2 datasets for training in pipeline1 for part 2.Data Preparation. Downloaded the first dataset (resized SIIM2021) to the HPC
 
 ### 1 April 2023
