@@ -6,13 +6,18 @@
 * [23 March 2023](#23-march-2023)
 * [1 April 2023](#1-April-2023)
 * [6 April 2023](#6-April-2023)
+* [7 April 2023](#7-April-2023)
+
+### 7 April 2023
+-  Used the kaggle API on HPC to download the final dataset directly. It took about 5 mins to download, once everything was set up correctly (I didn't time that bit :'( as I was working with many distractions.). Unzipping it took longer, but I was baking brownies simultaneously.
 
 
 ### 6 April 2023
 - The 2nd place team requires 2 datasets for training in pipeline1 for part 2.Data Preparation. Downloaded the first dataset (resized SIIM2021) to the HPC
     - Took about 1.5 hours to download and extract
 - Downloaded the second dataset. Tried to upload to HPC but the estimated time was ~35 hours. It might be faster if we can download it directly. Is this possible?
-    - Tried curl and wget locally, but it doesn't download the dataset. Is there another way?   
+    - Tried curl and wget locally, but it doesn't download the dataset. Is there another way?
+- Timelines aligned so we actually got to talk about the project from opposite sides of the world! Woohoo!
 
 ### 1 April 2023
 - Attempted to solve path issues on HPC with conda. Updated conda. Used module load for sklearn, then got tensorflow issues. Used module load for tensorflow, and found out that it does not coordinate well with other packages if there is a discrepency in package versions. After many emails back-and-forth between HPC, we realize that a workshop on how to properly use HPC and setup environments would have saved us now 14+ hours of our lives.
