@@ -10,6 +10,7 @@
 
 ### 7 April 2023
 -  Used the kaggle API on HPC to download the final dataset directly. It took about 5 mins to download, once everything was set up correctly (I didn't time that bit :'( as I was working with many distractions.). Unzipping it took longer, but I was baking brownies simultaneously.
+-  Ran a job on the HPC for ```python create_folds.py``` to create the data splits. Stage 2: Data Preparation in pipeline1 is officially finished.
 
 
 ### 6 April 2023
