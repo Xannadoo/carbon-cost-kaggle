@@ -10,8 +10,8 @@
 * [9 April 2023](#9-April-2023)
 
 ### 9 April 2023
-- Created a job file to run ```python create_folds.py``` for the siim kaggle challenge. Even after following the installation instructions, having errors with "No module named": 'cv2', 'neptune', 'torch', 'albumentations', 'torchvision', 
-    - Started at 11:00 am 
+- Created a job file to run ```python create_folds.py``` for the siim kaggle challenge. Even after following the installation instructions, having errors with "No module named": 'cv2', 'neptune', 'torch', 'albumentations', 'torchvision'... and others
+    - Started at 11:00 am. Ended at 1:30 pm. So 2.5 hours spent, and still having missing package errors.
 
 ### 7 April 2023
 -  Used the kaggle API on HPC to download the final dataset directly. It took about 5 mins to download, once everything was set up correctly (I didn't time that bit :'( as I was working with many distractions.). Unzipping it took longer, but I was baking brownies simultaneously.
