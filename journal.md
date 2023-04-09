@@ -10,7 +10,7 @@
 * [9 April 2023](#9-April-2023)
 
 ### 9 April 2023
-- Created a job file to run ```python create_folds.py``` for the siim kaggle challenge. Even after following the installation instructions, having errors with "No module named 'cv2'", "No module named 'neptune'", "No module named 'torch'".
+- Created a job file to run ```python create_folds.py``` for the siim kaggle challenge. Even after following the installation instructions, having errors with "No module named 'cv2'", "No module named 'neptune'", "No module named 'torch'", "No module named 'albumentations'"
 - 
 
 ### 7 April 2023
