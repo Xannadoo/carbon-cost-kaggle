@@ -21,6 +21,7 @@
 #### What did you achieve?
 * Continued working on the 2nd place team's code for the kaggle challenge
 	* Solved package and installation issues.
+	* Used the kaggle API to download a large dataset to the HPC
 	* Finished Step 2, data preparation for pipeline1
 	* Started Step 3, Training.
 
