@@ -8,6 +8,12 @@
 * [6 April 2023](#6-April-2023)
 * [7 April 2023](#7-April-2023)
 * [9 April 2023](#9-April-2023)
+* [10 April 2023](#10-April-2023)
+
+
+### 10 April 2023
+- Spent 1 more hour and fixed missing package errors for the kaggle repo. Had to re-run pip with the requirements.txt file, which was already did in the installation step for pipeline1, and additionally run some pip installs. So even though the steps were outlined "clearly" in their Readme, the installation instructions were not sufficient to get the project running.
+- Not getting errors related to Cuda and pytorch
 
 ### 9 April 2023
 - Created a job file to run ```python create_folds.py``` for the siim kaggle challenge. Even after following the installation instructions, having errors with "No module named": 'cv2', 'neptune', 'torch', 'albumentations', 'torchvision'... and others
@@ -16,7 +22,6 @@
 ### 7 April 2023
 -  Used the kaggle API on HPC to download the final dataset directly. It took about 5 mins to download, once everything was set up correctly (I didn't time that bit :'( as I was working with many distractions.). Unzipping it took longer, but I was baking brownies simultaneously.
 -  Ran a job on the HPC for ```python create_folds.py``` to create the data splits. Stage 2: Data Preparation in pipeline1 is officially finished.
-
 
 ### 6 April 2023
 - The 2nd place team requires 2 datasets for training in pipeline1 for part 2.Data Preparation. Downloaded the first dataset (resized SIIM2021) to the HPC
