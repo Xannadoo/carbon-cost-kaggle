@@ -13,7 +13,7 @@
 
 ### 10 April 2023
 - Spent 1 more hour and fixed missing package errors for the kaggle repo. Had to re-run pip with the requirements.txt file, which was already did in the installation step for pipeline1, and additionally run some pip installs. So even though the steps were outlined "clearly" in their Readme, the installation instructions were not sufficient to get the project running.
-- Not getting errors related to Cuda and pytorch
+- Now getting errors related to Cuda and pytorch
 
 ### 9 April 2023
 - Created a job file to run ```python create_folds.py``` for the siim kaggle challenge. Even after following the installation instructions, having errors with "No module named": 'cv2', 'neptune', 'torch', 'albumentations', 'torchvision'... and others
