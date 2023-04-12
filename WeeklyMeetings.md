@@ -1,4 +1,5 @@
 # Dee and Sanna's Weekly Meeting Notes
+* [10th April 2023](#10th-april-2023)
 * [4th April 2023](#4th-april-2023)
 * [23th March 2023](#23rd-march-2023)
 * [20th March 2023](#20th-march-2023)
@@ -7,6 +8,34 @@
 * [23rd February 2023](#23rd-february-2023)
 * [13th February 2023](#13th-february-2023)
 * [Template](#day-month-year)
+
+
+### 10th April 2023
+
+#### Who did you help this week?
+--
+
+#### Who helped you this week?
+--
+
+#### What did you achieve?
+* Continued working on the 2nd place team's code for the kaggle challenge
+	* Solved package and installation issues.
+	* Finished Step 2, data preparation for pipeline1
+	* Started Step 3, Training.
+
+#### What did you struggle with?
+* Package/installation issues on the kaggle project
+
+#### What would you like to work on next week?
+* Finish stage 3 Training for pipeline1 in the kaggle repo, shown [here](https://github.com/nvnnghia/siim2021/tree/main/pipeline1).
+* Run training for Dovile's project
+
+#### Where do you need help from Veronika?
+* Help solving the Cuda/pytorch issues on HPC
+
+#### Any other topics
+--
 
 
 
@@ -33,7 +62,7 @@
 * For the second place team, pipeline1, finishing step 2 Data Preparation, and start step 3 Training.
 
 #### Where do you need help from Veronika?
-* 
+- 
 
 #### Any other topics
 -
