@@ -9,7 +9,12 @@
 * [7 April 2023](#7-April-2023)
 * [9 April 2023](#9-April-2023)
 * [10 April 2023](#10-April-2023)
+* [13 April 2023](#13-April-2023)
 
+### 13 April 2023
+- For Dovile's project, the job for ```make_dataframe.py``` only seems to have worked for the breast, ISIC, and kimia datasets.
+- We get errors for making the dataframes for the chest, knee, mammograms, pcam-small, and thyroid datasets.
+- 
 
 ### 10 April 2023
 - Spent 1 more hour and fixed missing package errors for the kaggle repo. Had to re-run pip with the requirements.txt file, which was already did in the installation step for pipeline1, and additionally run some pip installs. So even though the steps were outlined "clearly" in their Readme, the installation instructions were not sufficient to get the project running.
