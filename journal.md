@@ -20,7 +20,7 @@
     - Ran training successfully on Imagenet for the breast dataset with 2 cpu cores only. Took 23 minutes
     - Added carbon tracker and re-ran training on breast dataset. Failed: ```OUT_OF_MEMORY```
     - Changed to 8 CPU cores and GPU. Failed ```AttributeError: 'str' object has no attribute 'decode'``` Traceback ended here... ``` "/home/ddeq/.local/lib/python3.8/site-packages/carbontracker/components/gpu/nvidia.py"```. So removing GPU from the train.job file.
-    - Total time spent today: 10:30am-
+    - Total time spent today: 10:30am-2:30pm
 - For the kaggle project:
     - 
 
