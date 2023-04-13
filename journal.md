@@ -19,9 +19,10 @@
     - Made Job file for training
     - Ran training successfully on Imagenet for the breast dataset with 2 cpu cores only. Took 23 minutes
     - Added carbon tracker and re-ran training on breast dataset. Failed: ```OUT_OF_MEMORY```
-    - Changed to 8 CPU cores and GPU. Failed ```AttributeError: 'str' object has no attribute 'decode'```
+    - Changed to 8 CPU cores and GPU. Failed ```AttributeError: 'str' object has no attribute 'decode'``` Traceback ended here... ``` "/home/ddeq/.local/lib/python3.8/site-packages/carbontracker/components/gpu/nvidia.py"```. So removing GPU from the train.job file.
+    - Total time spent today: 10:30am-
 - For the kaggle project:
-    - -  
+    - 
 
 ### 10 April 2023
 - Spent 1 more hour and fixed missing package errors for the kaggle repo. Had to re-run pip with the requirements.txt file, which was already did in the installation step for pipeline1, and additionally run some pip installs. So even though the steps were outlined "clearly" in their Readme, the installation instructions were not sufficient to get the project running.
