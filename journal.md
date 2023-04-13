@@ -1,21 +1,25 @@
 # Journal to track what we have been up to.
-* [February 2023](#february-2023)
-* [March 2023](#march-2023)
-* [16 March 2023](#16-march-2023)
-* [18 March 2023](#18-march-2023)
-* [23 March 2023](#23-march-2023)
-* [1 April 2023](#1-April-2023)
-* [6 April 2023](#6-April-2023)
-* [7 April 2023](#7-April-2023)
-* [9 April 2023](#9-April-2023)
-* [10 April 2023](#10-April-2023)
 * [13 April 2023](#13-April-2023)
+* [10 April 2023](#10-April-2023)
+* [9 April 2023](#9-April-2023)
+* [7 April 2023](#7-April-2023)
+* [6 April 2023](#6-April-2023)
+* [1 April 2023](#1-April-2023)
+* [23 March 2023](#23-march-2023)
+* [18 March 2023](#18-march-2023)
+* [16 March 2023](#16-march-2023)
+* [March 2023](#march-2023)
+* [February 2023](#february-2023)
+
 
 ### 13 April 2023
 - For Dovile's project:
     - the job for ```make_dataframe.py``` only seems to have worked for the breast, ISIC, and kimia datasets.
     - We get errors for making the dataframes for the chest, knee, mammograms, pcam-small, and thyroid datasets.
     - Made Job file for training
+    - Ran training successfully on Imagenet for the breast dataset with 2 cpu cores only. Took 23 minutes
+    - Added carbon tracker and re-ran training on breast dataset. Failed: ```OUT_OF_MEMORY```
+    - Changed to 8 CPU cores and GPU. Failed ```AttributeError: 'str' object has no attribute 'decode'```
 - For the kaggle project:
     - -  
 
