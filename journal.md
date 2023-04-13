@@ -31,8 +31,10 @@
             0.003894 km travelled by car
             ```
 - For the kaggle project:
-    - wrote to HPC about Cuda/pytorch issue
-- Total time spent on this part today: 10:30am-2:45pm (4 hours 15 minutes)
+    - Messed with cpu/gpu settings on the HPC until the pretrain job started working. 1st epoch done 79% before leaving ITU. Assume it will finish.
+    - Modified pretraining.py to include carbon tracker.
+    - Made a job file for running training
+- Total time spent on this part today: 10:30am-4:00pm (5.5 hours)
 
 ### 10 April 2023
 - Spent 1 more hour and fixed missing package errors for the kaggle repo. Had to re-run pip with the requirements.txt file, which was already did in the installation step for pipeline1, and additionally run some pip installs. So even though the steps were outlined "clearly" in their Readme, the installation instructions were not sufficient to get the project running.
