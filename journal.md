@@ -16,7 +16,8 @@
 
 ### 14 April 2023
 - For Dovile's Project:
-    - Run
+    - Started a job file for training on the breast dataset. Seems to be working.
+    - Started jobs for the isic and kimia datasets. Both failed. Seems like it could be due to a resource issue, but I'm not sure.
 - For the Kaggle Project:
     - Modified the pretraining job file to have the correct number of epochs and a long enough running time. Changed nothing else, but started running into the following error again: ``AttributeError: 'str' object has no attribute 'decode'```. 
     - Apptempted to solve this for about an hour by selecting specific GPU's. Then went to DASYA lab. Lottie helped debug the issue. We tried specifying specific Desktops to see which one would work. After that we went to the GitHub for CarbonTracker and found 2 related issues. 
@@ -24,7 +25,7 @@
     - We also went to ```carbontracker/emissions/intensity/fetchers/energidataservice.py``` and added ```from_str = from_str.replace(' ','T')``` below line 44 and ```to_str = to_str.replace(' ','T')``` below that. 
     - On a side note, even though I am using an anaconda environment, the error seemed to come from the pip installed version. Lottie did not understand why the anaconda version of CarbonTracker was not being used, if it was in the environment.
     - job file is set up to run for whenever the pretrain job is finished.
-- Total time spent today: 4 hours + 
+- Total time spent today: 5 hours 
 
 ### 13 April 2023
 - For Dovile's project:
