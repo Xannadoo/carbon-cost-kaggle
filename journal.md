@@ -23,6 +23,7 @@
     - For the above attribute error we had to go ``` "/home/ddeq/.local/lib/python3.8/site-packages/carbontracker/components/gpu/nvidia.py"``` and comment out line 25 where it says ```devices = [name.decode("utf-8") for name in names]```, then add ```devices = names``` on a line before the return statement. Lottie suggests that their package might not robust to handle different setups, which causes this issue.
     - We also went to ```carbontracker/emissions/intensity/fetchers/energidataservice.py``` and added ```from_str = from_str.replace(' ','T')``` below line 44 and ```to_str = to_str.replace(' ','T')``` below that. 
     - On a side note, even though I am using an anaconda environment, the error seemed to come from the pip installed version. Lottie did not understand why the anaconda version of CarbonTracker was not being used, if it was in the environment.
+    - job file is set up to run for whenever the pretrain job is finished.
 - Total time spent today: 4 hours + 
 
 ### 13 April 2023
