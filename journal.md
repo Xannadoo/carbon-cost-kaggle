@@ -1,4 +1,6 @@
 # Journal to track what we have been up to.
+
+* [14 April 2023](#14-April-2023)
 * [13 April 2023](#13-April-2023)
 * [10 April 2023](#10-April-2023)
 * [9 April 2023](#9-April-2023)
@@ -11,6 +13,17 @@
 * [March 2023](#march-2023)
 * [February 2023](#february-2023)
 
+
+### 14 April 2023
+- For Dovile's Project:
+    - Run
+- For the Kaggle Project:
+    - Modified the pretraining job file to have the correct number of epochs and a long enough running time. Changed nothing else, but started running into the following error again: ``AttributeError: 'str' object has no attribute 'decode'```. 
+    - Apptempted to solve this for about an hour by selecting specific GPU's. Then went to DASYA lab. Lottie helped debug the issue. We tried specifying specific Desktops to see which one would work. After that we went to the GitHub for CarbonTracker and found 2 related issues. 
+    - For the above attribute error we had to go ``` "/home/ddeq/.local/lib/python3.8/site-packages/carbontracker/components/gpu/nvidia.py"``` and comment out line 25 where it says ```devices = [name.decode("utf-8") for name in names]```, then add ```devices = names``` on a line before the return statement. Lottie suggests that their package might not robust to handle different setups, which causes this issue.
+    - We also went to ```carbontracker/emissions/intensity/fetchers/energidataservice.py``` and added ```from_str = from_str.replace(' ','T')``` below line 44 and ```to_str = to_str.replace(' ','T')``` below that. 
+    - On a side note, even though I am using an anaconda environment, the error seemed to come from the pip installed version. Lottie did not understand why the anaconda version of CarbonTracker was not being used, if it was in the environment.
+- Total time spent today: 4 hours + 
 
 ### 13 April 2023
 - For Dovile's project:
