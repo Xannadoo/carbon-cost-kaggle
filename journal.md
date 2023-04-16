@@ -17,7 +17,8 @@
 
 ### 16 April 2023
 - For Dovile's Project:
-    - The job submitted for the breast datset showed a typo in the fix in the CarbonTracker code. It has now been fixed and re-run. The results are as follows:
+    - The job submitted for the breast datset showed a typo in the fix in the CarbonTracker code. It has now been fixed and re-run. 
+    - The results are in file `job.122945.out`, as follows:
     - ```
         CarbonTracker:
         Actual consumption for 1 epoch(s):
