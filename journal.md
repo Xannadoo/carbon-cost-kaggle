@@ -18,7 +18,8 @@
 ### 16 April 2023
 - For Dovile's Project:
     - The job submitted for the breast datset showed a typo in the fix in the CarbonTracker code. It has now been fixed and re-run. The results are as follows:
-    - `CarbonTracker:
+    - ```
+        CarbonTracker:
         Actual consumption for 1 epoch(s):
                 Time:   0:14:58
                 Energy: 0.051023 kWh
@@ -32,7 +33,8 @@
                 CO2eq:  1051.017129 g
                 This is equivalent to:
                 9.776904 km travelled by car
-        CarbonTracker: Finished monitoring.` 
+        CarbonTracker: Finished monitoring.
+        ```
 - For the Kaggle Project:
     - Time limit hit and training did not finish.
     - Re-submitted a job with actual training commented out to see the number of epochs.
