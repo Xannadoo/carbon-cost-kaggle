@@ -18,7 +18,7 @@
 ### 16 April 2023
 - For Dovile's Project:
     - The job submitted for the breast datset showed a typo in the fix in the CarbonTracker code. It has now been fixed and re-run. 
-    - The results are in file `job.122945.out`, as follows:
+    - The results prior to re-running are in file `job.122945.out`, as follows:
     - ```
         CarbonTracker:
         Actual consumption for 1 epoch(s):
@@ -36,9 +36,9 @@
                 9.776904 km travelled by car
         CarbonTracker: Finished monitoring.
         ```
+    - Need to check results after re-running (`job.122952.out`)
 - For the Kaggle Project:
-    - Time limit hit and pretraining did not finish.
-    - Results of pretraining are as follows:
+    - Time limit hit and pretraining did not finish. The results of this (in file `job.122234.out`) are as follows:
     ```
     Actual consumption for 1 epoch(s):
         Time:   19:01:56
@@ -55,7 +55,7 @@
             79.367738 km travelled by car
     CarbonTracker: Finished monitoring.
     ```
-    - Re-submitted a job with training commented out to verify the number of epochs.
+    - Re-submitted a job with training commented out to verify the number of epochs. I think it is actually 15 epochs, but 5 folds. Only just under 2 folds finished within 36 hours.
     - Need to re-run pretraining with correct number of epochs.
 
 ### 14 April 2023
