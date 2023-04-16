@@ -1,5 +1,6 @@
 # Journal to track what we have been up to.
 
+* [16 April 2023](#16-April-2023)
 * [14 April 2023](#14-April-2023)
 * [13 April 2023](#13-April-2023)
 * [10 April 2023](#10-April-2023)
@@ -13,6 +14,28 @@
 * [March 2023](#march-2023)
 * [February 2023](#february-2023)
 
+
+### 16 April 2023
+- For Dovile's Project:
+    - The job submitted for the breast datset showed a typo in the fix in the CarbonTracker code. It has now been fixed and re-run. The results are as follows:
+    - `CarbonTracker:
+        Actual consumption for 1 epoch(s):
+                Time:   0:14:58
+                Energy: 0.051023 kWh
+                CO2eq:  5.204317 g
+                This is equivalent to:
+                0.048412 km travelled by car
+        CarbonTracker:
+        Predicted consumption for 200 epoch(s):
+                Time:   49:53:53
+                Energy: 10.204543 kWh
+                CO2eq:  1051.017129 g
+                This is equivalent to:
+                9.776904 km travelled by car
+        CarbonTracker: Finished monitoring.` 
+- For the Kaggle Project:
+    - Time limit hit and training did not finish.
+    - Re-submitted a job with actual training commented out to see the number of epochs.
 
 ### 14 April 2023
 - For Dovile's Project:
