@@ -37,8 +37,26 @@
         CarbonTracker: Finished monitoring.
         ```
 - For the Kaggle Project:
-    - Time limit hit and training did not finish.
-    - Re-submitted a job with actual training commented out to see the number of epochs.
+    - Time limit hit and pretraining did not finish.
+    - Results of pretraining are as follows:
+    ```
+    Actual consumption for 1 epoch(s):
+        Time:   19:01:56
+        Energy: 12.282045 kWh
+        CO2eq:  1049.397093 g
+        This is equivalent to:
+        9.761833 km travelled by car
+    CarbonTracker:
+    Predicted consumption for 5 epoch(s):
+            Time:   95:09:41
+            Energy: 61.410227 kWh
+            CO2eq:  8532.031854 g
+            This is equivalent to:
+            79.367738 km travelled by car
+    CarbonTracker: Finished monitoring.
+    ```
+    - Re-submitted a job with training commented out to verify the number of epochs.
+    - Need to re-run pretraining with correct number of epochs.
 
 ### 14 April 2023
 - For Dovile's Project:
