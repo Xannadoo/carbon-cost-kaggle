@@ -56,6 +56,7 @@
     ```
     - Need to get chest, knee, mammograms, pcam-small, and thyroid datasplits working
     - Ran pips.job for thyroid data. Attempting to debug with 1 dataset at a time. Job failed (`job.123703.out`) due to `AttributeError: module 'pandas' has no attribute 'read_xml'`. Wth? Need to get help from HPC about this Tuesday (tomorrow) between 9-11.
+    - Submitted pips.job for making chest dataframe (123721).
  - For Kaggle project:
     - Re-ran pretraining with correct number of epochs (4 folds, 15 epochs each). Gave limit of 3 days, but requested more from HPC. 
     - Need to get these results. (in `job.123717.out`?)
