@@ -58,9 +58,9 @@
     - Attempting to debug with 1 dataset at a time.
     - Ran pips.job for thyroid data (`job.123703.out`). Error `AttributeError: module 'pandas' has no attribute 'read_xml'`. Wth? Need to get help from HPC about this Tuesday (tomorrow) between 9-11.
     - Ran pips.job for chest data (`job.123721.out`). Error `ValueError: 7 is not in range`
-    - Ran pips.job for mammmograms data (`job.123742.out`).
-    - Ran pips.job for knee data (`job.123744.out`)
-    - Need to try pcam-small.
+    - Ran pips.job for mammmograms data (`job.123742.out`). Dataframes do not seem to be changed. Why?
+    - Ran pips.job for knee data (`job.123744.out`). Error `ValueError: 7 is not in range`
+    - Ran pips.job for pcam-small
  - For Kaggle project:
     - Re-ran pretraining with correct number of epochs (4 folds, 15 epochs each). Gave limit of 3 days, but requested more from HPC. 
     - Need to get these results. (in `job.123717.out`?)
