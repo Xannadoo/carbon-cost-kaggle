@@ -1,5 +1,5 @@
 # Journal to track what we have been up to.
-
+* [17 April 2023](#17-April-2023)
 * [16 April 2023](#16-April-2023)
 * [14 April 2023](#14-April-2023)
 * [13 April 2023](#13-April-2023)
@@ -14,6 +14,30 @@
 * [March 2023](#march-2023)
 * [February 2023](#february-2023)
 
+
+### 17 April 2023
+- For Dovile's Project:
+    - Results (in `job.122952.out`) of running training on the isic data:
+    ```
+    CarbonTracker:
+    Actual consumption for 1 epoch(s):
+            Time:   1:37:40
+            Energy: 0.338987 kWh
+            CO2eq:  32.058499 g
+            This is equivalent to:
+            0.298219 km travelled by car
+    CarbonTracker:
+    Predicted consumption for 200 epoch(s):
+            Time:   325:31:49
+            Energy: 67.797429 kWh
+            CO2eq:  5665.096228 g
+            This is equivalent to:
+            52.698570 km travelled by car
+    CarbonTracker: Finished monitoring.
+    ```
+    - Results (in ) of running training on breast data:
+    
+    - Now to get the other datasets to run...
 
 ### 16 April 2023
 - For Dovile's Project:
