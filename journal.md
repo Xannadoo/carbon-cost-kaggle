@@ -35,8 +35,24 @@
             52.698570 km travelled by car
     CarbonTracker: Finished monitoring.
     ```
-    - Results (in ) of running training on breast data:
-    
+    - Results (in `job.122945.out`) of running training on breast data:
+    ```
+    CarbonTracker:
+    Actual consumption for 1 epoch(s):
+            Time:   0:14:58
+            Energy: 0.051023 kWh
+            CO2eq:  5.204317 g
+            This is equivalent to:
+            0.048412 km travelled by car
+    CarbonTracker:
+    Predicted consumption for 200 epoch(s):
+            Time:   49:53:53
+            Energy: 10.204543 kWh
+            CO2eq:  1051.017129 g
+            This is equivalent to:
+            9.776904 km travelled by car
+    CarbonTracker: Finished monitoring.
+    ```
     - Now to get the other datasets to run...
 
 ### 16 April 2023
