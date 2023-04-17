@@ -36,7 +36,24 @@
             52.698570 km travelled by car
     CarbonTracker: Finished monitoring.
     ```      
-    - Submitted a job for the kimia dataset (job `123577`)
+    - Results for the kimia dataset (in `job.123577.out`)
+    ```
+    CarbonTracker:
+    Actual consumption for 1 epoch(s):
+            Time:   0:08:34
+            Energy: 0.007341 kWh
+            CO2eq:  0.521238 g
+            This is equivalent to:
+            0.004849 km travelled by car
+    CarbonTracker:
+    Predicted consumption for 200 epoch(s):
+            Time:   28:32:35
+            Energy: 1.468276 kWh
+            CO2eq:  101.336366 g
+            This is equivalent to:
+            0.942664 km travelled by car
+    CarbonTracker: Finished monitoring.
+    ```
     - Need to get chest, knee, mammograms, pcam-small, and thyroid datasplits working
 
 ### 16 April 2023
