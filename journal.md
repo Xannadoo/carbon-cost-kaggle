@@ -59,8 +59,9 @@
  - For Kaggle project:
     - Re-ran pretraining with correct number of epochs (4 folds, 15 epochs each). Gave limit of 3 days, but requested more from HPC. 
     - Need to get these results.
-    - Training ran successfully, just ran out of time.
-    - Need also to add CarbonTracker to training script and re-run with more time.
+    - Training ran successfully, just ran out of time. (in `job.122954.out`)
+    - Ran training with actual training commented out to see number of epochs (in `job.123717.out`)
+    - Need to add CarbonTracker to training script and re-run with more time.
 
 ### 16 April 2023
 - For Dovile's Project:
