@@ -16,8 +16,8 @@
 
 
 ### 17 April 2023
-- For Dovile's Project:
-    - Results (in `job.122952.out`) of running training on the isic data:
+- **For Dovile's Project**:
+    - Results (in `job.122952.out`) of running training on the **isic** data:
     Only Ran training once.
     ```
     CarbonTracker:
@@ -36,7 +36,7 @@
             52.698570 km travelled by car
     CarbonTracker: Finished monitoring.
     ```      
-    - Results for the kimia dataset (in `job.123577.out`)
+    - Results for the **kimia** dataset (in `job.123577.out`)
     ```
     CarbonTracker:
     Actual consumption for 1 epoch(s):
@@ -56,22 +56,22 @@
     ```
     - Need to get chest, knee, mammograms, pcam-small, and thyroid datasplits working
     - Attempting to debug with 1 dataset at a time.
-    - Ran pips.job for mammmograms data (`job.123742.out`). Dataframes are not changed... the data on purrlab seems to be structured differently.
+    - Ran pips.job for **mammmograms** data (`job.123742.out`). Dataframes are not changed... the data on purrlab seems to be structured differently.
     - Fixed path on `data_imports.py` for mammograms data. Ran pips.job again (`job.123802.out`).
-    - Ran pips.job for thyroid data (`job.123703.out`). Error `AttributeError: module 'pandas' has no attribute 'read_xml'`. Wth? Need to get help from HPC about this Tuesday (tomorrow) between 9-11.
-    - Ran pips.job for chest data (`job.123721.out`). Error `ValueError: 7 is not in range`
-    - Ran pips.job for knee data (`job.123744.out`). Error `ValueError: 7 is not in range`
-    - Ran pips.job for pcam-small (`job.123749.out`). Typo in job file. Rerunning (`job..out`) 
- - For Kaggle project:
+    - Ran pips.job for **thyroid** data (`job.123703.out`). Error `AttributeError: module 'pandas' has no attribute 'read_xml'`. Wth? Need to get help from HPC about this Tuesday (tomorrow) between 9-11.
+    - Ran pips.job for **chest** data (`job.123721.out`). Error `ValueError: 7 is not in range`
+    - Ran pips.job for **knee** data (`job.123744.out`). Error `ValueError: 7 is not in range`
+    - Ran pips.job for **pcam-small** (`job.123749.out`). Typo in job file. Rerunning (`job.123806.out`) 
+ - **For Kaggle project**:
     - Re-ran pretraining with correct number of epochs (4 folds, 15 epochs each). Gave limit of 3 days, but requested more from HPC. 
-    - Need to get these results. (in `job.123717.out`?)
-    - Training ran successfully, just ran out of time. (in `job.122954.out`)
-    - Ran training with actual training commented out to see number of epochs (in `job.123717.out`)
+    - Need to get these results. (`job.123717.out`?)
+    - Training ran successfully, just ran out of time. (`job.122954.out`)
+    - Ran training with actual training commented out to see number of epochs (`job.123717.out`)
     - Added CarbonTracker to training script. Need to re-run with correct epochs, more time, and comments removed.
 
 ### 16 April 2023
 - For Dovile's Project:
-    - The job submitted for the breast datset showed a typo in the fix in the CarbonTracker code. It has now been fixed and re-run. 
+    - The job submitted for the **breast** dataset showed a typo in the fix in the CarbonTracker code. It has now been fixed and re-run. 
     - The results prior to re-running (in `job.122945.out`) are as follows:
     - ```
         CarbonTracker:
