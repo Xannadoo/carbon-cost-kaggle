@@ -18,6 +18,7 @@
 ### 17 April 2023
 - For Dovile's Project:
     - Results (in `job.122952.out`) of running training on the isic data:
+    Only Ran training once.
     ```
     CarbonTracker:
     Actual consumption for 1 epoch(s):
@@ -34,31 +35,14 @@
             This is equivalent to:
             52.698570 km travelled by car
     CarbonTracker: Finished monitoring.
-    ```
-    - Results (in `job.122945.out`) of running training on breast data:
-    ```
-    CarbonTracker:
-    Actual consumption for 1 epoch(s):
-            Time:   0:14:58
-            Energy: 0.051023 kWh
-            CO2eq:  5.204317 g
-            This is equivalent to:
-            0.048412 km travelled by car
-    CarbonTracker:
-    Predicted consumption for 200 epoch(s):
-            Time:   49:53:53
-            Energy: 10.204543 kWh
-            CO2eq:  1051.017129 g
-            This is equivalent to:
-            9.776904 km travelled by car
-    CarbonTracker: Finished monitoring.
-    ```
-    - Now to get the other datasets to run...
+    ```      
+    - Submitted a job for the kimia dataset (job `123577`)
+    - Need to get chest, knee, mammograms, pcam-small, and thyroid datasplits working
 
 ### 16 April 2023
 - For Dovile's Project:
     - The job submitted for the breast datset showed a typo in the fix in the CarbonTracker code. It has now been fixed and re-run. 
-    - The results prior to re-running are in file `job.122945.out`, as follows:
+    - The results prior to re-running (in `job.122945.out`) are as follows:
     - ```
         CarbonTracker:
         Actual consumption for 1 epoch(s):
