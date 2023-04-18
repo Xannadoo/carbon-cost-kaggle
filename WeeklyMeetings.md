@@ -13,7 +13,7 @@
 ### 16th April 2023
 
 #### Who did you help this week?
-Sanna helped Dee debug an issue with making the dataframes on the mammograms dataset in Dovile's project.
+Sanna helped Dee try to debug an issue with making the dataframes on the mammograms dataset in Dovile's project.
 
 #### Who helped you this week?
 Each other. We discussed how to handle data that is now coming in.
@@ -21,7 +21,7 @@ Each other. We discussed how to handle data that is now coming in.
 #### What did you achieve?
 * For Dovile's project
 	* We now have results for training on 3 out of 8 of the datasets. (isic, kimia, and breast)
-	* Found that mammograms data has different structure on data_shares. Attempting to make dataframes work
+	* Found that mammograms data has different structure on data_shares. Attempting to make dataframes work.
 * We have results from pretraining in the Kaggle team's pipeline1.
 
 #### What did you struggle with?
@@ -29,9 +29,11 @@ Each other. We discussed how to handle data that is now coming in.
 
 #### What would you like to work on next week?
 * For kaggle project
-	*  Debug mammograms path issue, and make dataframes
-	*  make dataframes work for knee, chest, pcam-small, and thyroid
 	*  Run training job for pipeline1 to see carbon footprint
+	*  Start looking into pipeline1
+* Dovile's project:
+	* Finish debugging for mammograms dataset and make dataframes
+	* Make dataframes work for knee, chest, pcam-small, and thyroid
 
 #### Where do you need help from Veronika?
 * Requesting red queue for running the training for the kaggle team.
