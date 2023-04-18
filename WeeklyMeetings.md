@@ -1,4 +1,5 @@
 # Dee and Sanna's Weekly Meeting Notes
+* [16th April 2023](#16th-april-2023)
 * [10th April 2023](#10th-april-2023)
 * [4th April 2023](#4th-april-2023)
 * [23th March 2023](#23rd-march-2023)
@@ -8,6 +9,36 @@
 * [23rd February 2023](#23rd-february-2023)
 * [13th February 2023](#13th-february-2023)
 * [Template](#day-month-year)
+
+### 16th April 2023
+
+#### Who did you help this week?
+Sanna helped Dee debug an issue with making the dataframes on the mammograms dataset in Dovile's project.
+
+#### Who helped you this week?
+Each other. We discussed how to handle data that is now coming in.
+
+#### What did you achieve?
+* For Dovile's project
+	* We now have results for training on 3 out of 8 of the datasets. (isic, kimia, and breast)
+	* Found that mammograms data has different structure on data_shares. Attempting to make dataframes work
+* We have results from pretraining in the Kaggle team's pipeline1.
+
+#### What did you struggle with?
+* We still have error's making some of the dataframes for Dovile's project. We cannot train until the dataframes are made.
+
+#### What would you like to work on next week?
+* For kaggle project
+	*  Debug mammograms path issue, and make dataframes
+	*  make dataframes work for knee, chest, pcam-small, and thyroid
+	*  Run training job for pipeline1 to see carbon footprint
+
+#### Where do you need help from Veronika?
+* Requesting red queue for running the training for the kaggle team.
+
+#### Any other topics
+
+
 
 
 ### 10th April 2023
@@ -302,7 +333,6 @@ Google.
 #### Who did you help this week?
 
 Replace this text with a one/two sentence description of who you helped this week and how.
-
 
 #### Who helped you this week?
 
