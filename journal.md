@@ -54,7 +54,7 @@
             0.942664 km travelled by car
     CarbonTracker: Finished monitoring.
     ```
-    - Need to get chest, knee, mammograms, pcam-small, and thyroid datasplits working
+    - Need to get chest, knee, mammograms, pcam-small, chest, and thyroid datasplits working
     - Attempting to debug with 1 dataset at a time.
     - Ran pips.job for **mammmograms** data (`job.123742.out`). Dataframes are not changed... the data on purrlab seems to be structured differently.
     - Fixed path on `data_imports.py` for mammograms data. Ran pips.job again (`job.123802.out`).
