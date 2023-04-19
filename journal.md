@@ -1,4 +1,5 @@
 # Journal to track what we have been up to.
+* [Training Status](#day-month-year)
 * [17 April 2023](#17-April-2023)
 * [16 April 2023](#16-April-2023)
 * [14 April 2023](#14-April-2023)
@@ -14,6 +15,18 @@
 * [March 2023](#march-2023)
 * [February 2023](#february-2023)
 
+### day month year Training Status
+## Dovile's Project
+| Dataset | Dataframes Status | Job | Training Status | Job |
+| ------- | ----------------- | --- | --------------- | --- |
+| Isic | Done | | | |
+| Kimia | Done | | | |
+| Breast | Done | | | |
+| Mammograms | | | | |
+| Chest | | | | |
+| Thyroid | | | | |
+| Knee | | | | |
+| Pcam-small | | | | |
 
 ### 17 April 2023
 - **For Dovile's Project**:
