@@ -19,18 +19,18 @@
 ## Dovile's Project
 | Dataset | Dataframes Status | Job | Training Status | Job |
 | ------- | ----------------- | --- | --------------- | --- |
-| Isic | Done | | | |
-| Kimia | Done | | | |
-| Breast | Done | | | |
-| Mammograms | | | | |
-| Chest | | | | |
-| Thyroid | | | | |
-| Knee | | | | |
-| Pcam-small | | | | |
+| Isic | Done |  | Complete | `job.122952.out` |
+| Kimia | Done | | Complete | `job.123577.out` |
+| Breast | Done | | Complete | `job.122945.out` |
+| Mammograms | bug: path error | | | |
+| Chest | error:`ValueError: 7 is not in range` | | | |
+| Knee | error:`ValueError: 7 is not in range` | | | |
+| Thyroid | bug: pandas version | | | |
+| Pcam-small | bug:`ValueError: No objects to concatenate` | | | |
 
 ### 17 April 2023
 - **For Dovile's Project**:
-    - Results (in `job.122952.out`) of running training on the **isic** data:
+    - Results (`job.122952.out`) of running training on the **isic** data:
     Only Ran training once.
     ```
     CarbonTracker:
@@ -49,7 +49,7 @@
             52.698570 km travelled by car
     CarbonTracker: Finished monitoring.
     ```      
-    - Results for the **kimia** dataset (in `job.123577.out`)
+    - Results for the **kimia** dataset (`job.123577.out`)
     ```
     CarbonTracker:
     Actual consumption for 1 epoch(s):
@@ -86,7 +86,7 @@
 ### 16 April 2023
 - For Dovile's Project:
     - The job submitted for the **breast** dataset showed a typo in the fix in the CarbonTracker code. It has now been fixed and re-run. 
-    - The results prior to re-running (in `job.122945.out`) are as follows:
+    - The results prior to re-running (`job.122945.out`) are as follows:
     - ```
         CarbonTracker:
         Actual consumption for 1 epoch(s):
