@@ -29,6 +29,13 @@
 | Thyroid | bug: pandas version | `job.123703.out` | - | - |
 | Pcam-small | bug:`ValueError: No objects to concatenate` | `job.123749.out` | - | - |
 
+## Kaggle Project
+| Stage | Runs | Job | W/ CarbonTracker | Job | Status | 
+| ----- | ---- | --- | ---------------- | --- | ------ |
+| P1:pretrain | yes | `pt_wo_ct.out` | running | `job.123687.out` | running:3day limit |
+| P1:train | yes, hit timelimit | `job.122954.out` |  |  |
+| P2:.. | not started | - | - | - | - |
+
 ### 18 April 2023
 - Got help from Joachim at HPC to debug pandas error in the mammograms dataset. The solution did not work. Spent 3 hours throughout the day trying to debug the issue with no success. Issue seems to be with a not-updated veresion of anaconda Tried:
     - upgrading pandas with pip
@@ -86,7 +93,7 @@
     - Ran pips.job for **pcam-small** (`job.123749.out`). Typo in job file. Rerunning (`job.123806.out`). Error `ValueError: No objects to concatenate`
  - **For Kaggle project**:
     - Re-ran pretraining with correct number of epochs (4 folds, 15 epochs each). Gave limit of 3 days, but requested more from HPC. 
-    - Need to get these results. (`job.123717.out`?)
+    - Need to get these results. (`job.123687.out`)
     - Training ran successfully, just ran out of time. (`job.122954.out`)
     - Ran training with actual training commented out to see number of epochs (`job.123717.out`)
     - Added CarbonTracker to training script. Need to re-run with correct epochs, more time, and comments removed.
