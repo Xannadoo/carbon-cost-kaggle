@@ -30,11 +30,11 @@
 | Pcam-small | bug:`ValueError: No objects to concatenate` | `job.123749.out` | - | - |
 
 ## Kaggle Project
-| Stage | Runs | Job | W/ CarbonTracker | Job | Status | 
+| Stage | Runs | Job | Splits | Job | W/ CarbonTracker | Job | Status | 
 | ----- | ---- | --- | ---------------- | --- | ------ |
-| P1:pretrain | yes | `pt_wo_ct.out` | running | `job.123687.out` | running:3day limit |
-| P1:train | yes, hit timelimit | `job.122954.out` |  |  |
-| P2:.. | not started | - | - | - | - |
+| P1:pretrain | yes | `pt_wo_ct.out` | 5 fold, 15 epoch | ?? | running | `job.123687.out` | running:3day limit |
+| P1:train | yes, hit timelimit | `job.122954.out` | 5 fold, 15 epoch | ?? | - | - | - |
+| P2:.. | not started | - | - | - | - | - | - |
 
 ### 18 April 2023
 - Got help from Joachim at HPC to debug pandas error in the mammograms dataset. The solution did not work. Spent 3 hours throughout the day trying to debug the issue with no success. Issue seems to be with a not-updated veresion of anaconda Tried:
