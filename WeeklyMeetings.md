@@ -25,6 +25,7 @@
 	* Found that mammograms data has different structure on data_shares. Attempting to make dataframes work.
 * We have results from pretraining in the Kaggle team's pipeline1.
 * Fixed error in CarbonTracker
+* Downloaded meta data from Kaggle and begun trying to work out what is useful (and what the various datasets actually include; there are no descriptions)
 
 #### What did you struggle with?
 * We still have error's making some of the dataframes for Dovile's project. We cannot train until the dataframes are made.

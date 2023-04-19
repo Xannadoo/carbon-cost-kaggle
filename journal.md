@@ -126,6 +126,8 @@
     - job file is set up to run for whenever the pretrain job is finished.
 - Total time spent today: 5 hours 
 
+- Downloadeded all the [kaggle metadata](https://www.kaggle.com/datasets/kaggle/meta-kaggle?select=KernelVersionCompetitionSources.csv). There is a lot of tables, so started working out which were hopefully useful. We want to know how many competitions(ideally the code competitions, but this might not be easy to isolate), how many entrants for each, and ideally, how many times they submitted. There isn't any description of the tables, that I can find, so it's a case of looking at them and working out what the hell they have recorded.
+
 ### 13 April 2023
 - For Dovile's project:
     - the job for ```make_dataframe.py``` only seems to have worked for the breast, ISIC, and kimia datasets.
