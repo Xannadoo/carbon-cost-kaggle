@@ -13,16 +13,18 @@
 ### 16th April 2023
 
 #### Who did you help this week?
-Sanna helped Dee try to debug an issue with making the dataframes on the mammograms dataset in Dovile's project.
+* Sanna helped Dee try to debug an issue with making the dataframes on the mammograms dataset in Dovile's project.
+* Lottie helped us debug issue in the CarbonTracker package.
 
 #### Who helped you this week?
-Each other. We discussed how to handle data that is now coming in.
+* Each other. We discussed how to handle data that is now coming in.
 
 #### What did you achieve?
 * For Dovile's project
 	* We now have results for training on 3 out of 8 of the datasets. (isic, kimia, and breast)
 	* Found that mammograms data has different structure on data_shares. Attempting to make dataframes work.
 * We have results from pretraining in the Kaggle team's pipeline1.
+* Fixed error in CarbonTracker
 
 #### What did you struggle with?
 * We still have error's making some of the dataframes for Dovile's project. We cannot train until the dataframes are made.
