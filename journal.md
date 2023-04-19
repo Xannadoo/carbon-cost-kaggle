@@ -1,5 +1,6 @@
 # Journal to track what we have been up to.
 * [Training Status](#day-month-year)
+* [19 April 2023](#19-April-2023)
 * [18 April 2023](#18-April-2023)
 * [17 April 2023](#17-April-2023)
 * [16 April 2023](#16-April-2023)
@@ -35,6 +36,9 @@
 | P1:pretrain | yes | `pt_wo_ct.out` | 5 fold, 15 epoch | ?? | running | `job.123687.out` | running:3day limit |
 | P1:train | yes, hit timelimit | `job.122954.out` | 5 fold, 15 epoch | ?? | - | - | - |
 | P2:.. | not started | - | - | - | - | - | - |
+
+### 19 April 2023
+- 3 hrs trying to join tables to isolate image competition submissions. I think we have about got there. Working out which tables we need to join was the biggest challenge due to the not-particularly clear column-names.
 
 ### 18 April 2023
 - Got help from Joachim at HPC to debug pandas error in the mammograms dataset. The solution did not work. Spent 3 hours throughout the day trying to debug the issue with no success. Issue seems to be with a not-updated veresion of anaconda Tried:
