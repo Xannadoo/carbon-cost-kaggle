@@ -1,5 +1,6 @@
 # Journal to track what we have been up to.
 * [Training Status](#day-month-year)
+* [18 April 2023](#18-April-2023)
 * [17 April 2023](#17-April-2023)
 * [16 April 2023](#16-April-2023)
 * [14 April 2023](#14-April-2023)
@@ -19,14 +20,21 @@
 ## Dovile's Project
 | Dataset | Dataframes Status | Job | Training Status | Job |
 | ------- | ----------------- | --- | --------------- | --- |
-| Isic | Done |  | Complete | `job.122952.out` |
-| Kimia | Done | | Complete | `job.123577.out` |
-| Breast | Done | | Complete | `job.122945.out` |
-| Mammograms | bug: path error | | | |
-| Chest | error:`ValueError: 7 is not in range` | | | |
-| Knee | error:`ValueError: 7 is not in range` | | | |
-| Thyroid | bug: pandas version | | | |
-| Pcam-small | bug:`ValueError: No objects to concatenate` | | | |
+| Isic | Done | - | Complete | `job.122952.out` |
+| Kimia | Done | - | Complete | `job.123577.out` |
+| Breast | Done | - | Complete | `job.122945.out` |
+| Mammograms | bug: path error | `job.123802.out` | bug:`ValueError` | `job.123808.out` |
+| Chest | error:`ValueError: 7 is not in range` | `job.123721.out` | - | - |
+| Knee | error:`ValueError: 7 is not in range` | `job.123744.out` | - | - |
+| Thyroid | bug: pandas version | `job.123703.out` | - | - |
+| Pcam-small | bug:`ValueError: No objects to concatenate` | `job.123749.out` | - | - |
+
+### 18 April 2023
+- Got help from Joachim at HPC to debug pandas error in the mammograms dataset. The solution did not work. Spent 3 hours throughout the day trying to debug the issue with no success. Issue seems to be with a not-updated veresion of anaconda Tried:
+    - upgrading pandas with pip
+    - installing pandas with pip and conda
+    - modifying order of loaded modules, pip installing requirements, etc
+    - updating anaconda (I don't have write permissions)
 
 ### 17 April 2023
 - **For Dovile's Project**:
