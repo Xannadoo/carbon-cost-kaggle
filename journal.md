@@ -31,7 +31,7 @@
 
 ## Kaggle Project
 | Stage | Runs | Job | Splits | Job | W/ CarbonTracker | Job | Status | 
-| ----- | ---- | --- | ---------------- | --- | ------ |
+| ----- | ---- | --- | ------ | --- | ---------------- | --- | ------ |
 | P1:pretrain | yes | `pt_wo_ct.out` | 5 fold, 15 epoch | ?? | running | `job.123687.out` | running:3day limit |
 | P1:train | yes, hit timelimit | `job.122954.out` | 5 fold, 15 epoch | ?? | - | - | - |
 | P2:.. | not started | - | - | - | - | - | - |
