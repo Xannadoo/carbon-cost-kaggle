@@ -1,5 +1,5 @@
 # Revisiting Transfer
-## Isic `job.122952.out`
+### Isic `job.122952.out`
 ```
 CarbonTracker:
 Actual consumption for 1 epoch(s):
@@ -17,7 +17,7 @@ Predicted consumption for 200 epoch(s):
         52.698570 km travelled by car
 CarbonTracker: Finished monitoring.
 ```
-## Kimia	`job.123577.out`
+### Kimia	`job.123577.out`
 ```
 CarbonTracker:
 Actual consumption for 1 epoch(s):
@@ -35,7 +35,7 @@ Predicted consumption for 200 epoch(s):
         0.942664 km travelled by car
 CarbonTracker: Finished monitoring.
 ```
-## Breast	`job.122945.out`
+### Breast	`job.122945.out`
 ```
  CarbonTracker:
   Actual consumption for 1 epoch(s):
@@ -53,14 +53,14 @@ CarbonTracker: Finished monitoring.
           9.776904 km travelled by car
   CarbonTracker: Finished monitoring.
 ```
-## Mammograms
-## Chest	
-## Knee	
-## Thyroid	
-## Pcam-small
+### Mammograms
+### Chest	
+### Knee	
+### Thyroid	
+### Pcam-small
 
 
 ### Kaggle
-Pipeline1/pretraining
-Pipeline1/training
-Pipeline2
+### Pipeline1/pretraining
+### Pipeline1/training
+### Pipeline2
