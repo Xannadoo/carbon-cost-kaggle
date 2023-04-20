@@ -42,6 +42,11 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
 ### 20 April 2023
 - **For Dovile's Project**
     - Sanna will try to simlink the folders for the mammagrams dataset (cbis-ddsm). The path on `data_import.py` line `403` will need to be changed to our simlinked folder
+    - Debugged errors with making chest and knee dataframes. Unable to run training due to lack of permissions to submit jobs on the HPC.
+- **Kaggle Project**
+    - figured out that both pretraining and training run 7 times, with 5 folds within each, and 15 epochs within each fold. Setting up CT to track a fold, run all epochs, and break after 1 fold to predict how many it would be with 5 folds.
+    - pretraining was commented out to make sure CT was in the correct place, and the break works. pretrain.job is ready to run (I do not currently have permissions for some unknown reason
+    - training was set up with CT and break to stop after 1 fold runs. train.job is ready to run a short version to test first.
 
 ### 19 April 2023
 - 3 hrs trying to join tables to isolate image competition submissions. I think we have about got there. Working out which tables we need to join was the biggest challenge due to the not-particularly clear column-names.
