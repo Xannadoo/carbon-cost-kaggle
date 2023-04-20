@@ -1,5 +1,5 @@
 # Dee and Sanna's Weekly Meeting Notes
-* [16th April 2023](#16th-april-2023)
+* [20th April 2023](#20th-april-2023)
 * [10th April 2023](#10th-april-2023)
 * [4th April 2023](#4th-april-2023)
 * [23th March 2023](#23rd-march-2023)
@@ -10,7 +10,7 @@
 * [13th February 2023](#13th-february-2023)
 * [Template](#day-month-year)
 
-### 16th April 2023
+### 20th April 2023
 
 #### Who did you help this week?
 * Sanna helped Dee try to debug an issue with making the dataframes on the mammograms dataset in Dovile's project.
