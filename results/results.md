@@ -2,8 +2,8 @@
 ### Isic `job.122952.out`
 ```
 CarbonTracker:
-Actual consumption for 1 epoch(s):
-        Time:   1:37:40
+Actual consumption for 1 epoch(s): # These results are actually for the whole 200 epochs
+        Time:   1:37:40 
         Energy: 0.338987 kWh
         CO2eq:  32.058499 g
         This is equivalent to:
@@ -20,7 +20,7 @@ CarbonTracker: Finished monitoring.
 ### Kimia	`job.123577.out`
 ```
 CarbonTracker:
-Actual consumption for 1 epoch(s):
+Actual consumption for 1 epoch(s): # These results are actually for the whole 200 epochs
         Time:   0:08:34
         Energy: 0.007341 kWh
         CO2eq:  0.521238 g
@@ -38,7 +38,7 @@ CarbonTracker: Finished monitoring.
 ### Breast	`job.122945.out`
 ```
  CarbonTracker:
-  Actual consumption for 1 epoch(s):
+  Actual consumption for 1 epoch(s): # These results are actually for the whole 200 epochs
           Time:   0:14:58
           Energy: 0.051023 kWh
           CO2eq:  5.204317 g
