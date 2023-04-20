@@ -27,8 +27,8 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
 | Kimia | Done | - | Complete | `job.123577.out` |
 | Breast | Done | - | Complete | `job.122945.out` |
 | Mammograms | bug: path error | `job.123802.out` | bug:`ValueError` | `job.123808.out` |
-| Chest | seems ok now | `job.123721.out`, `job.124916.out` | running | `job.124930.out` |
-| Knee | error:`ValueError: 7 is not in range` | `job.123744.out`, `job.124944.out` | - | - |
+| Chest | seems ok now | `job.123721.out`, `job.124916.out` | failed | `job.124930.out` |
+| Knee | seems ok now | `job.123744.out`, `job.124944.out` | - | - |
 | Thyroid | bug: pandas version | `job.123703.out` | - | - |
 | Pcam-small | bug:`ValueError: No objects to concatenate` | `job.123749.out` | - | - |
 
