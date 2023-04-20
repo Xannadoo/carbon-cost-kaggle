@@ -1,5 +1,6 @@
 # Journal to track what we have been up to.
 * [Training Status](#day-month-year)
+* [20 April 2023](#20-April-2023) 
 * [19 April 2023](#19-April-2023)
 * [18 April 2023](#18-April-2023)
 * [17 April 2023](#17-April-2023)
@@ -37,6 +38,10 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
 | P1:pretrain | yes | `pt_wo_ct.out` | 7 files, 5 folds, 15 epochs | `job.124727.out` | running | `job.123687.out` | running:3day limit |
 | P1:train | yes, hit timelimit | `job.122954.out` | 7 files, 5 folds, 15 epochs | `job.124717.out` | short test running | `job.124726.out` | - |
 | P2:.. | not started | - | - | - | - | - | - |
+
+### 20 April 2023
+- **For Dovile's Project**
+    - Sanna will try to simlink the folders for the mammagrams dataset (cbis-ddsm). The path on `data_import.py` line `403` will need to be changed to our simlinked folder
 
 ### 19 April 2023
 - 3 hrs trying to join tables to isolate image competition submissions. I think we have about got there. Working out which tables we need to join was the biggest challenge due to the not-particularly clear column-names.
