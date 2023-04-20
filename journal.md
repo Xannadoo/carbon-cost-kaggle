@@ -18,6 +18,7 @@
 * [February 2023](#february-2023)
 
 ### day month year Training Status
+Carbon Footprint results located in [results.md](https://github.com/carbonCostKaggle/carbon-cost-kaggle/blob/main/results/results.md)
 ## Dovile's Project
 | Dataset | Dataframes Status | Job | Training Status | Job |
 | ------- | ----------------- | --- | --------------- | --- |
