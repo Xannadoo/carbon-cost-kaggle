@@ -1,5 +1,5 @@
 # Journal to track what we have been up to.
-* [TrainingStatus](#day-month-year)
+* [Training Status](#day-month-year)
 * [19 April 2023](#19-April-2023)
 * [18 April 2023](#18-April-2023)
 * [17 April 2023](#17-April-2023)
@@ -17,7 +17,7 @@
 * [March 2023](#march-2023)
 * [February 2023](#february-2023)
 
-### day month year TrainingStatus
+### day month year Training Status
 ## Dovile's Project
 | Dataset | Dataframes Status | Job | Training Status | Job |
 | ------- | ----------------- | --- | --------------- | --- |
