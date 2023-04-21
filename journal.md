@@ -29,7 +29,7 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
 | Breast | Done | - | Complete, correct image/batch size | `job.122945.out`, `job.125144.out` |
 | Chest | Done | `job.124916.out` | Complete with correct image/batch size | `job.125142.out` |
 | Knee | Done | `job.124944.out` | Complete | `job.125145.out` |
-| Mammograms | Done | `job.123802.out`, `job.125112.out` | reran: bug:`ValueError` | `job.125135.out` |
+| Mammograms | path error | `job.125112.out`, `job.125316.out` | reran: bug:`ValueError` | `job.125135.out` |
 | Thyroid | bug: pandas version | `job.123703.out` | - | - |
 | Pcam-small | bug:`ValueError: No objects to concatenate`. folder in HPC seems empty | `job.123806.out` | - | - |
 
@@ -69,44 +69,10 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
 - **For Dovile's Project**:
     - Results (`job.122952.out`) of running training on the **isic** data:
     Only Ran training once.
-    ```
-    CarbonTracker:
-    Actual consumption for 1 epoch(s):
-            Time:   1:37:40
-            Energy: 0.338987 kWh
-            CO2eq:  32.058499 g
-            This is equivalent to:
-            0.298219 km travelled by car
-    CarbonTracker:
-    Predicted consumption for 200 epoch(s):
-            Time:   325:31:49
-            Energy: 67.797429 kWh
-            CO2eq:  5665.096228 g
-            This is equivalent to:
-            52.698570 km travelled by car
-    CarbonTracker: Finished monitoring.
-    ```      
     - Results for the **kimia** dataset (`job.123577.out`)
-    ```
-    CarbonTracker:
-    Actual consumption for 1 epoch(s):
-            Time:   0:08:34
-            Energy: 0.007341 kWh
-            CO2eq:  0.521238 g
-            This is equivalent to:
-            0.004849 km travelled by car
-    CarbonTracker:
-    Predicted consumption for 200 epoch(s):
-            Time:   28:32:35
-            Energy: 1.468276 kWh
-            CO2eq:  101.336366 g
-            This is equivalent to:
-            0.942664 km travelled by car
-    CarbonTracker: Finished monitoring.
-    ```
     - Need to get chest, knee, mammograms, pcam-small, chest, and thyroid datasplits working
     - Attempting to debug with 1 dataset at a time.
-    - Ran pips.job for **mammmograms** data (`job.123742.out`). Dataframes are not changed... the data on purrlab seems to be structured differently.
+    - Ran pips.job for **mammmograms** data (`job.123742.out` and `job.123802.out`). Dataframes are not changed... the data on purrlab seems to be structured differently.
     - Fixed path on `data_imports.py` for mammograms data. Ran pips.job again (`job.123802.out`).
     - Ran train.job for **mammograms** data (`job.123808.out`). Error `ValueError: Asked to retrieve element 0, but the Sequence has length 0`
     - Ran pips.job for **thyroid** data (`job.123703.out`). Error `AttributeError: module 'pandas' has no attribute 'read_xml'`. Wth? Need to get help from HPC about this Tuesday (tomorrow) between 9-11.
