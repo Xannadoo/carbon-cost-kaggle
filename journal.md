@@ -1,5 +1,6 @@
 # Journal to track what we have been up to.
 * [Training Status](#day-month-year)
+* [21 April 2023](#21-April-2023) 
 * [20 April 2023](#20-April-2023) 
 * [19 April 2023](#19-April-2023)
 * [18 April 2023](#18-April-2023)
@@ -38,6 +39,9 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
 | P1:pretrain | yes | `pt_wo_ct.out` | 7 files, 5 folds, 15 epochs | `job.124727.out` | runs | `job.123687.out`, `job.125114.out` | done:3day limit, didn't print results, need to rerun. job file ready, short test with commented out training |
 | P1:train | yes, hit timelimit | `job.122954.out` | 7 files, 5 folds, 15 epochs | `job.124717.out` | short test | `job.124726.out`,`job.125115.out` | failed, env or hardware issue?, testing |
 | P2:.. | not started | - | - | - | - | - | - |
+### 21 April 2023
+- Worked on creating the mammograms database csv, from a folder with symlinks to all the images. Now we need to see if it can actually train this way.
+- Found a better meta-dataset to work with to find the data we need to estimate number of submissions per competitions. Filtered for competitions tagged as 'image' as the siim set has this tag, along with some of the others we considered. Trying to find some way of distinguishing code competitions from traditional ones, but this is not so obvious. It may be that they are 'kernal only submissions'. These competitions appeared around 2019, which seems to coincide with code competitions but this needs to be verified.
 
 ### 20 April 2023
 - **For Dovile's Project**
