@@ -35,32 +35,60 @@ Predicted consumption for 200 epoch(s):
         0.942664 km travelled by car
 CarbonTracker: Finished monitoring.
 ```
-### Breast	`job.122945.out`
+### Breast	`job.125144.out`
 ```
- CarbonTracker:
-  Actual consumption for 1 epoch(s): # These results are actually for the whole 200 epochs
-          Time:   0:14:58
-          Energy: 0.051023 kWh
-          CO2eq:  5.204317 g
-          This is equivalent to:
-          0.048412 km travelled by car
-  CarbonTracker:
-  Predicted consumption for 200 epoch(s):
-          Time:   49:53:53
-          Energy: 10.204543 kWh
-          CO2eq:  1051.017129 g
-          This is equivalent to:
-          9.776904 km travelled by car
-  CarbonTracker: Finished monitoring.
+Actual consumption for 1 epoch(s):
+        Time:   0:31:18
+        Energy: 0.119732 kWh
+        CO2eq:  4.190629 g
+        This is equivalent to:
+        0.038983 km travelled by car
+CarbonTracker:
+Predicted consumption for 200 epoch(s):
+        Time:   104:18:34
+        Energy: 23.946454 kWh
+        CO2eq:  838.125880 g
+        This is equivalent to:
+        7.796520 km travelled by car
+```
+### Chest `job.125142.out`
+```
+Actual consumption for 1 epoch(s):
+        Time:   1:15:20
+        Energy: 0.260203 kWh
+        CO2eq:  9.107116 g
+        This is equivalent to:
+        0.084717 km travelled by car
+CarbonTracker:
+Predicted consumption for 200 epoch(s):
+        Time:   251:08:13
+        Energy: 52.040665 kWh
+        CO2eq:  1821.423286 g
+        This is equivalent to:
+        16.943472 km travelled by car
+```
+### Knee `job.125145.out` 
+```
+Actual consumption for 1 epoch(s):
+        Time:   0:49:39
+        Energy: 0.201474 kWh
+        CO2eq:  7.353786 g
+        This is equivalent to:
+        0.068407 km travelled by car
+CarbonTracker:
+Predicted consumption for 200 epoch(s):
+        Time:   165:29:06
+        Energy: 40.294720 kWh
+        CO2eq:  1530.836348 g
+        This is equivalent to:
+        14.240338 km travelled by car
 ```
 ### Mammograms
-### Chest	
-### Knee	
 ### Thyroid	
 ### Pcam-small
 
 
-### Kaggle
+## Kaggle
 ### Pipeline1/pretraining
 ### Pipeline1/training
 ### Pipeline2
