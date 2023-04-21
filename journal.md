@@ -29,7 +29,7 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
 | Breast | Done | - | Complete | `job.122945.out` |
 | Chest | Done | `job.124916.out` | failed | `job.124930.out` |
 | Knee | Done | `job.124944.out` | - | - |
-| Mammograms | Complete | `job.123802.out`, `job.125112.out` | bug:`ValueError`,rerunning | `job.123808.out`, `job.125135.out` |
+| Mammograms | Done | `job.123802.out`, `job.125112.out` | bug:`ValueError`,rerunning | `job.123808.out`, `job.125135.out` |
 | Thyroid | bug: pandas version | `job.123703.out` | - | - |
 | Pcam-small | bug:`ValueError: No objects to concatenate`. folder in HPC seems empty | `job.123806.out` | - | - |
 
