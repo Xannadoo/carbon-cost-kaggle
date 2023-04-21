@@ -26,9 +26,9 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
 | ------- | ----------------- | --- | --------------- | --- |
 | Isic | Done | - | Complete | `job.122952.out` |
 | Kimia | Done | - | Complete (check image/batch size) | `job.123577.out` |
-| Breast | Done | - | Complete, rerunning | `job.122945.out`, `job.125144.out` |
-| Chest | Done | `job.124916.out` | failed, rerunning | `job.124930.out`,`job.125142.out` |
-| Knee | Done | `job.124944.out` | submitted | `job.125145.out` |
+| Breast | Done | - | Complete, correct image/batch size | `job.122945.out`, `job.125144.out` |
+| Chest | Done | `job.124916.out` | Complete with correct image/batch size | `job.125142.out` |
+| Knee | Done | `job.124944.out` | Complete | `job.125145.out` |
 | Mammograms | Done | `job.123802.out`, `job.125112.out` | reran: bug:`ValueError` | `job.125135.out` |
 | Thyroid | bug: pandas version | `job.123703.out` | - | - |
 | Pcam-small | bug:`ValueError: No objects to concatenate`. folder in HPC seems empty | `job.123806.out` | - | - |
@@ -49,6 +49,7 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
 - **For Dovile's Project**
     - Sanna will try to simlink the folders for the mammagrams dataset (cbis-ddsm). The path on `data_import.py` line `403` will need to be changed to our simlinked folder
     - Debugged errors with making chest and knee dataframes. Unable to run training due to lack of permissions to submit jobs on the HPC.
+    - Chest dataframe file failed `job.124930.out` because of a hardware issue. The job happened to get the wrong Desktop, it seems.
 - **Kaggle Project**
     - figured out that both pretraining and training run 7 times, with 5 folds within each, and 15 epochs within each fold. Setting up CT to track a fold, run all epochs, and break after 1 fold to predict how many it would be with 5 folds.
     - pretraining was commented out to make sure CT was in the correct place, and the break works. pretrain.job is ready to run (I do not currently have permissions for some unknown reason
