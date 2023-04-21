@@ -26,7 +26,7 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
 | ------- | ----------------- | --- | --------------- | --- |
 | Isic | Done | - | Complete | `job.122952.out` |
 | Kimia | Done | - | Complete | `job.123577.out` |
-| Breast | Done | - | Complete | `job.122945.out` |
+| Breast | Done | - | Complete, rerunning | `job.122945.out`, `job.125144.out` |
 | Chest | Done | `job.124916.out` | failed, rerunning | `job.124930.out`,`job.125142.out` |
 | Knee | Done | `job.124944.out` | - | - |
 | Mammograms | Done | `job.123802.out`, `job.125112.out` | bug:`ValueError`,rerunning | `job.123808.out`, `job.125135.out` |
