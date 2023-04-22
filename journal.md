@@ -28,7 +28,7 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
 | Breast | Done | - | Complete, correct image/batch size | `job.125144.out` |
 | Chest | Done | `job.124916.out` | Complete w/ correct image/batch size | `job.125142.out` |
 | Knee | Done | `job.124944.out` | Complete w/ correct image/batch size | `job.125145.out` |
-| Mammograms | path error, simlinked, images moved | `job.125112.out`, `job.125320.out` `job.125408.out` | reran: bug:`ValueError`, rerunning | `job.125135.out` `job.125368.out`|
+| Mammograms | Done | `job.125408.out` | reran: bug:`ValueError`, rerunning | `job.125135.out` `job.125368.out`|
 | Thyroid | bug: pandas version, Done (locally) | `job.123703.out`, no job file | submitted | `job.125550.out` |
 | Kimia | Done | - | Complete (check image/batch size) | `job.123577.out`
 | Pcam-small | bug:`ValueError: No objects to concatenate`. folder in HPC seems empty | `job.123806.out` | - | - |
@@ -49,8 +49,8 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
     - Made dataframes for the thyroid dataset locally by downloaded the images from the HPC. Submitted a job for training (`job.125550.out`)
 
 ### 21 April 2023
-- Worked on creating the mammograms database csv, from a folder with symlinks to all the images. Now we need to see if it can actually train this way.
-- Training failed. Upon inspection of file paths, it seems to be off. Modified path and sent file to re-make dataframes (`job.125316.out`). Training after this failed to find images. Moved all images into a shared folder, and am re-running pips.job to make mamms dataframes.
+- Worked on creating the mammograms database csv, from a folder with symlinks to all the images. (`job.125320.out`) Now we need to see if it can actually train this way.
+- Training failed. Upon inspection of file paths, it seems to be off. Modified path and sent file to re-make dataframes (`job.125135.out`). Training after this failed to find images. Moved all images into a shared folder, and am re-running pips.job to make mamms dataframes.
 - Found a better meta-dataset to work with to find the data we need to estimate number of submissions per competitions. Filtered for competitions tagged as 'image' as the siim set has this tag, along with some of the others we considered. Trying to find some way of distinguishing code competitions from traditional ones, but this is not so obvious. It may be that they are 'kernal only submissions'. These competitions appeared around 2019, which seems to coincide with code competitions but this needs to be verified.
 - pretraining job submitted, with break statement put in after 1 epoch runs (`job.125319.out`)
 
