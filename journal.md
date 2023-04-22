@@ -24,13 +24,13 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
 ## Dovile's Project
 | Dataset | Dataframe Status | Job | Training Status (Freeze=False) | Job | 
 | ------- | ----------------- | --- | --------------- | --- |
-| Isic | Done | - | Complete w/ correct image/batch size | `job.122952.out` |
-| Breast | Done | - | Complete, correct image/batch size | `job.125144.out` |
+| Isic | Done | deleted | Complete w/ correct image/batch size | `job.122952.out` |
+| Breast | Done | deleted | Complete, correct image/batch size | `job.125144.out` |
 | Chest | Done | `job.124916.out` | Complete w/ correct image/batch size | `job.125142.out` |
 | Knee | Done | `job.124944.out` | Complete w/ correct image/batch size | `job.125145.out` |
 | Mammograms | Done | `job.125408.out` | reran: bug:`ValueError`, rerunning | `job.125135.out` `job.125368.out`|
 | Thyroid | Done (locally) | no job file | submitted | `job.125550.out` |
-| Kimia | Done | - | Complete (check image/batch size) | `job.123577.out`
+| Kimia | Done | deleted | Complete (check image/batch size) | `job.123577.out`
 | Pcam-small | bug:`ValueError: No objects to concatenate`. folder in HPC seems empty | `job.123806.out` | - | - |
 
 ## Kaggle Project
