@@ -29,8 +29,8 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
 | Chest | Done | `job.124916.out` | Complete w/ correct image/batch size | `job.125142.out` |
 | Knee | Done | `job.124944.out` | Complete w/ correct image/batch size | `job.125145.out` |
 | Mammograms | path error, simlinked, images moved | `job.125112.out`, `job.125320.out` `job.125408.out` | reran: bug:`ValueError`, rerunning | `job.125135.out` `job.125368.out`|
+| Thyroid | bug: pandas version, Done (locally) | `job.123703.out`, no job file | submitted | `job.125550.out` |
 | Kimia | Done | - | Complete (check image/batch size) | `job.123577.out`
-| Thyroid | bug: pandas version | `job.123703.out` | - | - |
 | Pcam-small | bug:`ValueError: No objects to concatenate`. folder in HPC seems empty | `job.123806.out` | - | - |
 
 ## Kaggle Project
@@ -45,7 +45,8 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
     - Pretraining fails on Desktop 9, and runs on Desktop 18. Need to figure out how to exclude a particular desktop, or range of desktops.
     - Resubmitted for desktop 18 (`job.125448.out`)
 - **Dovile's Project**
-    - Re-ran making dataframes for mamms with new file location, with all images in one location (`job.125408.out`). Seems ok. Reran training (`job.125419.out`) and failed again. I wonder if the path for this dataset is in 2 places...
+    - Re-ran making dataframes for mamms with new file location, with all images in one location (`job.125408.out`). Seems ok. Reran training (`job.125419.out`) and failed again. There was a missing "/" for making the dataframes. Fixed this error, re-made dataframes, and submitted the training job.
+    - Made dataframes for the thyroid dataset locally by downloaded the images from the HPC. Submitted a job for training (`job.125550.out`)
 
 ### 21 April 2023
 - Worked on creating the mammograms database csv, from a folder with symlinks to all the images. Now we need to see if it can actually train this way.
