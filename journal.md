@@ -1,6 +1,6 @@
 # Journal to track what we have been up to.
 * [Training Status](#day-month-year)
-* [2¨2 April 2023](#22-April-2023) 
+* [22 April 2023](#22-April-2023) 
 * [21 April 2023](#21-April-2023) 
 * [20 April 2023](#20-April-2023) 
 * [19 April 2023](#19-April-2023)
@@ -23,16 +23,16 @@
 ### day month year Training Status
 Carbon Footprint results located in [results.md](https://github.com/carbonCostKaggle/carbon-cost-kaggle/blob/main/results/results.md)
 ## Dovile's Project
-| Dataset | Dataframe Status | Job | Training Status (Freeze=False) | Job | 
-| ------- | ----------------- | --- | --------------- | --- |
-| Isic | Done | deleted | Complete w/ correct image/batch size | `job.122952.out` |
-| Breast | Done | deleted | Complete, correct image/batch size | `job.125144.out` |
-| Chest | Done | `job.124916.out` | Complete w/ correct image/batch size | `job.125142.out` |
-| Knee | Done | `job.124944.out` | Complete w/ correct image/batch size | `job.125145.out` |
-| Mammograms | Done | `job.125408.out` | reran: bug:`ValueError`, rerunning | `job.125135.out` `job.125368.out`|
-| Thyroid | Done (locally) | no job file | submitted | `job.125550.out` |
-| Kimia | Done | deleted | Complete (check image/batch size) | `job.123577.out`
-| Pcam-small | bug:`ValueError: No objects to concatenate`. folder in HPC seems empty | `job.123806.out` | - | - |
+| Dataset | Dataframe Status | Job | Training Status (Freeze=False) | Job | Training Status (Freeze=True) | Job |
+| ------- | ---------------- | --- | ------------------------------ | --- | ----------------------------- | --- |
+| Isic | Done | deleted | Complete w/ correct image/batch size | `job.122952.out` | - | - |
+| Breast | Done | deleted | Complete, correct image/batch size | `job.125144.out` | - | - |
+| Chest | Done | `job.124916.out` | Complete w/ correct image/batch size | `job.125142.out` | - | - |
+| Knee | Done | `job.124944.out` | Complete w/ correct image/batch size | `job.125145.out` | - | - |
+| Mammograms | Done | `job.125408.out` | reran: bug:`ValueError`, rerunning | `job.125135.out` `job.125368.out`| - | - |
+| Thyroid | Done (locally) | no job file | submitted | `job.125550.out` | - | - |
+| Kimia | Done | deleted | Complete (check image/batch size) | `job.123577.out`| - | - |
+| Pcam-small | bug:`ValueError: No objects to concatenate`. folder in HPC seems empty | `job.123806.out` | - | - | - | - |
 
 ## Kaggle Project
 | Stage | Runs | Job | Splits | Job | W/ CarbonTracker | Job | Status | 
