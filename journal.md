@@ -36,15 +36,16 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
 ## Kaggle Project
 | Stage | Runs | Job | Splits | Job | W/ CarbonTracker | Job | Status | 
 | ----- | ---- | --- | ------ | --- | ---------------- | --- | ------ |
-| P1:pretrain | yes | `pt_wo_ct.out` | 7 files, 5 folds, 15 epochs | `job.124727.out` | runs | `job.123687.out` `job.125114.out` `job.125319.out`| done:3day limit, didn't print results, need to rerun. short test with commented out training. re-running w/o comments |
+| P1:pretrain | yes | `pt_wo_ct.out` | 7 files, 5 folds, 15 epochs | `job.124727.out` | runs desktop 18, not 9 | `job.123687.out` `job.125114.out` `job.125319.out`| done:3day limit, didn't print results, need to rerun. short test with commented out training. re-running w/o comments |
 | P1:train | yes, hit timelimit | `job.122954.out` | 7 files, 5 folds, 15 epochs | `job.124717.out` | short test | `job.124726.out`,`job.125115.out` | failed, env or hardware issue?, need to wait for pretraining? |
 | P2:.. | not started | - | - | - | - | - | - |
 
 ### 21 April 2023
 - Worked on creating the mammograms database csv, from a folder with symlinks to all the images. Now we need to see if it can actually train this way.
-- Training failed. Upon inspection of file paths, it seems to be off. Modified path and sent file to re-make dataframes (`job.125316.out`)
+- Training failed. Upon inspection of file paths, it seems to be off. Modified path and sent file to re-make dataframes (`job.125316.out`). Training after this failed to find images. Moved all images into a shared folder, and am re-running pips.job to make mamms dataframes.
 - Found a better meta-dataset to work with to find the data we need to estimate number of submissions per competitions. Filtered for competitions tagged as 'image' as the siim set has this tag, along with some of the others we considered. Trying to find some way of distinguishing code competitions from traditional ones, but this is not so obvious. It may be that they are 'kernal only submissions'. These competitions appeared around 2019, which seems to coincide with code competitions but this needs to be verified.
 - pretraining job submitted, with break statement put in after 1 epoch runs (`job.125319.out`)
+- 
 
 ### 20 April 2023
 - **For Dovile's Project**
