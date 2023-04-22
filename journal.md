@@ -40,6 +40,12 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
 | P1:train | yes, hit timelimit | `job.122954.out` | 7 files, 5 folds, 15 epochs | `job.124717.out` | short test | `job.124726.out`,`job.125115.out` | failed, env or hardware issue?, need to wait for pretraining? |
 | P2:.. | not started | - | - | - | - | - | - |
 
+### 22 April 2023
+- **Kaggle Project**
+    - Pretraining fails on Desktop 9, and runs on Desktop 18. Need to figure out how to exclude a particular desktop, or range of desktops.
+- **Dovile's Project**
+    - Re-ran making dataframes for mamms with new file location, with all images in one location (`job.125408.out`). Seems ok. Rerunning training (`job.125419.out`)
+
 ### 21 April 2023
 - Worked on creating the mammograms database csv, from a folder with symlinks to all the images. Now we need to see if it can actually train this way.
 - Training failed. Upon inspection of file paths, it seems to be off. Modified path and sent file to re-make dataframes (`job.125316.out`). Training after this failed to find images. Moved all images into a shared folder, and am re-running pips.job to make mamms dataframes.
