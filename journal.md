@@ -43,6 +43,7 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
 ### 22 April 2023
 - **Kaggle Project**
     - Pretraining fails on Desktop 9, and runs on Desktop 18. Need to figure out how to exclude a particular desktop, or range of desktops.
+    - Resubmitted for desktop 18 (`job.125448.out`)
 - **Dovile's Project**
     - Re-ran making dataframes for mamms with new file location, with all images in one location (`job.125408.out`). Seems ok. Reran training (`job.125419.out`) and failed again. I wonder if the path for this dataset is in 2 places...
 
