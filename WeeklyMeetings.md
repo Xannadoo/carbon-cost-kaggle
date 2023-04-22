@@ -1,4 +1,5 @@
 # Dee and Sanna's Weekly Meeting Notes
+* [1st May 2023](#1st-may-2023)
 * [20th April 2023](#20th-april-2023)
 * [10th April 2023](#10th-april-2023)
 * [4th April 2023](#4th-april-2023)
@@ -9,6 +10,43 @@
 * [23rd February 2023](#23rd-february-2023)
 * [13th February 2023](#13th-february-2023)
 * [Template](#day-month-year)
+
+### 1st May 2023
+
+#### Who did you help this week?
+
+Replace this text with a one/two sentence description of who you helped this week and how.
+
+#### Who helped you this week?
+
+Replace this text with a one/two sentence description of who helped you this week and how.
+
+#### What did you achieve?
+
+* Replace this text with a bullet point list of what you achieved this week.
+* It's ok if your list is only one bullet point long!
+
+#### What did you struggle with?
+
+* Replace this text with a bullet point list of where you struggled this week.
+* It's ok if your list is only one bullet point long!
+
+#### What would you like to work on next week?
+
+* Replace this text with a bullet point list of what you would like to work on next week.
+* It's ok if your list is only one bullet point long!
+* Try to estimate how long each task will take.
+
+#### Where do you need help from Veronika?
+
+* Replace this text with a bullet point list of what you need help from Veronika on.
+* It's ok if your list is only one bullet point long!
+* Try to estimate how long each task will take.
+
+#### Any other topics
+
+This space is yours to add to as needed.
+
 
 ### 20th April 2023
 

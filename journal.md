@@ -1,5 +1,6 @@
 # Journal to track what we have been up to.
 * [Training Status](#day-month-year)
+* [2¨2 April 2023](#22-April-2023) 
 * [21 April 2023](#21-April-2023) 
 * [20 April 2023](#20-April-2023) 
 * [19 April 2023](#19-April-2023)
@@ -47,6 +48,8 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
 - **Dovile's Project**
     - Re-ran making dataframes for mamms with new file location, with all images in one location (`job.125408.out`). Seems ok. Reran training (`job.125419.out`) and failed again. There was a missing "/" for making the dataframes. Fixed this error, re-made dataframes, and submitted the training job.
     - Made dataframes for the thyroid dataset locally by downloaded the images from the HPC. Submitted a job for training (`job.125550.out`)
+- **Meta Kaggle**
+    - Isolated code competitions tagged with 'image'. Older code competitions refer to the notebooks as 'kernels', they are the same thing. Kaggle's description of the different [competitions](https://www.kaggle.com/docs/competitions) links to [one](https://www.kaggle.com/c/quora-insincere-questions-classification) described as a kernel competition as an example of a code competition. Need to decide what we want from this. Have average submisions per team, and average number of teams per competition, but is this enough? Avg submissions ~18, but thee range within this is huge, with some in their hundreds and others hardly any - maybe they entered but didn't actually get very far, so maybe we need to account for this somehow? Some competitions get a lot more entrants than others (maybe those with bigger prizes?).
 
 ### 21 April 2023
 - Worked on creating the mammograms database csv, from a folder with symlinks to all the images. (`job.125320.out`) Now we need to see if it can actually train this way.
