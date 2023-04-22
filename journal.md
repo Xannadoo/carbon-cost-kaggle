@@ -24,11 +24,11 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
 ## Dovile's Project
 | Dataset | Dataframes Status | Job | Training Status | Job |
 | ------- | ----------------- | --- | --------------- | --- |
-| Isic | Done | - | Complete | `job.122952.out` |
+| Isic | Done | - | Complete w/ correct image/batch size | `job.122952.out` |
 | Kimia | Done | - | Complete (check image/batch size) | `job.123577.out` |
-| Breast | Done | - | Complete, correct image/batch size | `job.122945.out`, `job.125144.out` |
-| Chest | Done | `job.124916.out` | Complete with correct image/batch size | `job.125142.out` |
-| Knee | Done | `job.124944.out` | Complete | `job.125145.out` |
+| Breast | Done | - | Complete, correct image/batch size | `job.125144.out` |
+| Chest | Done | `job.124916.out` | Complete w/ correct image/batch size | `job.125142.out` |
+| Knee | Done | `job.124944.out` | Complete w/ correct image/batch size | `job.125145.out` |
 | Mammograms | path error & new job sent | `job.125112.out`, `job.125320.out` | reran: bug:`ValueError`, rerunning | `job.125135.out` `job.125368.out`|
 | Thyroid | bug: pandas version | `job.123703.out` | - | - |
 | Pcam-small | bug:`ValueError: No objects to concatenate`. folder in HPC seems empty | `job.123806.out` | - | - |
