@@ -22,14 +22,14 @@
 ### day month year Training Status
 Carbon Footprint results located in [results.md](https://github.com/carbonCostKaggle/carbon-cost-kaggle/blob/main/results/results.md)
 ## Dovile's Project
-| Dataset | Dataframes Status | Job | Training Status | Job |
+| Dataset | Dataframe Status | Job | Training Status (Freeze=False) | Job | 
 | ------- | ----------------- | --- | --------------- | --- |
 | Isic | Done | - | Complete w/ correct image/batch size | `job.122952.out` |
-| Kimia | Done | - | Complete (check image/batch size) | `job.123577.out`
 | Breast | Done | - | Complete, correct image/batch size | `job.125144.out` |
 | Chest | Done | `job.124916.out` | Complete w/ correct image/batch size | `job.125142.out` |
 | Knee | Done | `job.124944.out` | Complete w/ correct image/batch size | `job.125145.out` |
-| Mammograms | path error, wimlinked, images moved | `job.125112.out`, `job.125320.out` `job.125408.out` | reran: bug:`ValueError`, rerunning | `job.125135.out` `job.125368.out`|
+| Mammograms | path error, simlinked, images moved | `job.125112.out`, `job.125320.out` `job.125408.out` | reran: bug:`ValueError`, rerunning | `job.125135.out` `job.125368.out`|
+| Kimia | Done | - | Complete (check image/batch size) | `job.123577.out`
 | Thyroid | bug: pandas version | `job.123703.out` | - | - |
 | Pcam-small | bug:`ValueError: No objects to concatenate`. folder in HPC seems empty | `job.123806.out` | - | - |
 
