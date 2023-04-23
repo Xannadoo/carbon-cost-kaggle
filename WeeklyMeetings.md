@@ -1,5 +1,6 @@
 # Dee and Sanna's Weekly Meeting Notes
 * [1st May 2023](#1st-may-2023)
+* [27th April 2023]("27th-april-2023)
 * [20th April 2023](#20th-april-2023)
 * [10th April 2023](#10th-april-2023)
 * [4th April 2023](#4th-april-2023)
@@ -14,38 +15,54 @@
 ### 1st May 2023
 
 #### Who did you help this week?
-
-Replace this text with a one/two sentence description of who you helped this week and how.
+-
 
 #### Who helped you this week?
-
-Replace this text with a one/two sentence description of who helped you this week and how.
+-
 
 #### What did you achieve?
-
-* Replace this text with a bullet point list of what you achieved this week.
-* It's ok if your list is only one bullet point long!
+* 
 
 #### What did you struggle with?
-
-* Replace this text with a bullet point list of where you struggled this week.
-* It's ok if your list is only one bullet point long!
+* 
 
 #### What would you like to work on next week?
-
-* Replace this text with a bullet point list of what you would like to work on next week.
-* It's ok if your list is only one bullet point long!
-* Try to estimate how long each task will take.
+* 
 
 #### Where do you need help from Veronika?
-
-* Replace this text with a bullet point list of what you need help from Veronika on.
-* It's ok if your list is only one bullet point long!
-* Try to estimate how long each task will take.
+* 
 
 #### Any other topics
-
 This space is yours to add to as needed.
+
+
+
+### 27th April 2023
+
+#### Who did you help this week?
+-
+
+#### Who helped you this week?
+- Joachim helped me figure out how to specify a desktop when submitting jobs.
+
+#### What did you achieve?
+* Made dataframes of all but 1 dataset (pcam-small)
+* Ran training with CarbonTracker on all but 1 dataset with freeze=False (waiting on a few results to finish still)
+
+#### What did you struggle with?
+* Package version issues on the HPC
+
+#### What would you like to work on next week?
+* Run training on all datasets with freeze=True
+* Enterpreting the results
+
+#### Where do you need help from Dovile?
+* Is it expected that training only runs for 5-7/200 epochs?
+* Verify that how we ran the training is correct
+
+#### Any other topics
+-
+
 
 
 ### 20th April 2023
