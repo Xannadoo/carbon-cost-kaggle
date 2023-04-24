@@ -1,5 +1,6 @@
 # Revisiting Transfer
-### Isic `job.122952.out`
+### Isic        `job.122952.out`
+Ran for 11/200 then 4/200 Epochs
 ```
 CarbonTracker:
 Actual consumption for 1 epoch(s): # These results are actually for the whole 200 epochs
@@ -18,6 +19,7 @@ Predicted consumption for 200 epoch(s):
 CarbonTracker: Finished monitoring.
 ```
 ### Kimia	`job.123577.out`
+Ran for 11/200 then 4/200 Epochs
 ```
 CarbonTracker:
 Actual consumption for 1 epoch(s): # These results are actually for the whole 200 epochs
@@ -36,6 +38,7 @@ Predicted consumption for 200 epoch(s):
 CarbonTracker: Finished monitoring.
 ```
 ### Breast	`job.125144.out`
+Ran for 8/200 then 4/200 Epochs
 ```
 Actual consumption for 1 epoch(s):
         Time:   0:31:18
@@ -52,6 +55,7 @@ Predicted consumption for 200 epoch(s):
         7.796520 km travelled by car
 ```
 ### Chest `job.125142.out`
+Ran for 12/200 then 4/200 Epochs
 ```
 Actual consumption for 1 epoch(s):
         Time:   1:15:20
@@ -68,6 +72,7 @@ Predicted consumption for 200 epoch(s):
         16.943472 km travelled by car
 ```
 ### Knee `job.125145.out` 
+Ran for 6/200 then 4/200 Epochs
 ```
 Actual consumption for 1 epoch(s):
         Time:   0:49:39
@@ -83,8 +88,11 @@ Predicted consumption for 200 epoch(s):
         This is equivalent to:
         14.240338 km travelled by car
 ```
-### Mammograms
-### Thyroid	
+### Thyroid `job.126110.out` 
+Ran for 4/200 then /200 Epochs
+
+
+### Mammograms	
 ### Pcam-small
 
 
