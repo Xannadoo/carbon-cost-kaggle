@@ -45,9 +45,9 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
 
 ### 24 April 2023
 - **Kaggle Project**
-    - Something
+    - Re-running pretraining (`job.126331.out`) with A100 GPU specified. Seems to be running
 - **Dovile's Project**
-    - Fixed missing line for thyroid dataset. Rerunning (`job.126110.out`).
+    - Fixed missing line for thyroid dataset. Ran training successfully (`job.126110.out`).
 
 ### 22 April 2023
 - **Kaggle Project**
