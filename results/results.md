@@ -3,7 +3,7 @@
 Ran for 11/200 then 4/200 Epochs
 ```
 CarbonTracker:
-Actual consumption for 1 epoch(s): # These results are actually for the whole 200 epochs
+Actual consumption for 1 epoch(s): # These results are actually for 4 epochs
         Time:   1:37:40 
         Energy: 0.338987 kWh
         CO2eq:  32.058499 g
@@ -22,7 +22,7 @@ CarbonTracker: Finished monitoring.
 Ran for 11/200 then 4/200 Epochs
 ```
 CarbonTracker:
-Actual consumption for 1 epoch(s): # These results are actually for the whole 200 epochs
+Actual consumption for 1 epoch(s): # These results are actually for 4 epochs
         Time:   0:08:34
         Energy: 0.007341 kWh
         CO2eq:  0.521238 g
