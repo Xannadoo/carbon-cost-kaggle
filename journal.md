@@ -1,5 +1,6 @@
 # Journal to track what we have been up to.
 * [Training Status](#day-month-year)
+* [24 April 2023](#24-April-2023) 
 * [22 April 2023](#22-April-2023) 
 * [21 April 2023](#21-April-2023) 
 * [20 April 2023](#20-April-2023) 
@@ -30,7 +31,7 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
 | Chest | Done | `job.124916.out` | Complete w/ correct image/batch size | `job.125142.out` | - | - |
 | Knee | Done | `job.124944.out` | Complete w/ correct image/batch size | `job.125145.out` | - | - |
 | Mammograms | Done | `job.125408.out` | reran: bug:`ValueError` | `job.125368.out`| - | - |
-| Thyroid | Done (locally) | no job file | submitted | `job.125550.out` | - | - |
+| Thyroid | Done (locally) | no job file | Failed (missing line of code), rerunning | `job.126110.out` | - | - |
 | Kimia | Done | deleted | Complete (check image/batch size) | `job.123577.out`| - | - |
 | Pcam-small | bug:`ValueError: No objects to concatenate`. folder in HPC seems empty | `job.123806.out` | - | - | - | - |
 
@@ -41,13 +42,20 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
 | P1:train | yes, hit timelimit | `job.122954.out` | 7 files, 5 folds, 15 epochs | `job.124717.out` | short test | `job.124726.out`,`job.125115.out` | failed, env or hardware issue?, need to wait for pretraining? |
 | P2:.. | not started | - | - | - | - | - | - |
 
+
+### 24 April 2023
+- **Kaggle Project**
+    - Something
+- **Dovile's Project**
+    - Fixed missing line for thyroid dataset. Rerunning (`job.126110.out`).
+
 ### 22 April 2023
 - **Kaggle Project**
     - Pretraining fails on Desktop 9, and runs on Desktop 18. Need to figure out how to exclude a particular desktop, or range of desktops.
     - Resubmitted for desktop 18 (`job.125448.out`)
 - **Dovile's Project**
     - Re-ran making dataframes for mamms with new file location, with all images in one location (`job.125408.out`). Seems ok. Reran training (`job.125419.out`) and failed again. There was a missing "/" for making the dataframes. Fixed this error, re-made dataframes, and submitted the training job.
-    - Made dataframes for the thyroid dataset locally by downloaded the images from the HPC. Submitted a job for training (`job.125550.out`)
+    - Made dataframes for the thyroid dataset locally by downloaded the images from the HPC. Submitted a job for training (`job.125550.out`). Failed due to missing line of code in fine_tuning.py, probably from commenting then uncommenting out chunks of code during testing.
 - **Meta Kaggle**
     - Isolated code competitions tagged with 'image'. Older code competitions refer to the notebooks as 'kernels', they are the same thing. Kaggle's description of the different [competitions](https://www.kaggle.com/docs/competitions) links to [one](https://www.kaggle.com/c/quora-insincere-questions-classification) described as a kernel competition as an example of a code competition. Need to decide what we want from this. Have average submisions per team, and average number of teams per competition, but is this enough? Avg submissions ~18, but thee range within this is huge, with some in their hundreds and others hardly any - maybe they entered but didn't actually get very far, so maybe we need to account for this somehow? Some competitions get a lot more entrants than others (maybe those with bigger prizes?).
 
