@@ -1,4 +1,4 @@
-# Revisiting Transfer
+# Revisiting Transfer: Imagenet Transfer Learning, Freeze=False
 ### Isic        `job.122952.out`
 Ran for 11/200 then 4/200 Epochs
 ```
@@ -89,8 +89,22 @@ Predicted consumption for 200 epoch(s):
         14.240338 km travelled by car
 ```
 ### Thyroid `job.126110.out` 
-Ran for 4/200 then /200 Epochs
-
+Ran for 4/200 then 4/200 Epochs
+```
+Actual consumption for 1 epoch(s):
+        Time:   0:14:25
+        Energy: 0.009719 kWh
+        CO2eq:  0.874699 g
+        This is equivalent to:
+        0.008137 km travelled by car
+CarbonTracker:
+Predicted consumption for 200 epoch(s):
+        Time:   48:02:16
+        Energy: 1.943775 kWh
+        CO2eq:  178.807256 g
+        This is equivalent to:
+        1.663323 km travelled by car
+```
 
 ### Mammograms	
 ### Pcam-small
