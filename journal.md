@@ -48,7 +48,7 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
     - Re-running pretraining (`job.126331.out`) with A100 GPU specified. Seems to be running
     - Running training with a print statement to see what cfg.weight_file is (`job.126397.out`). It is here: `outputs/n_cf2_pretraining/eca_nfnet_l1b/best_map_fold0_st0.pth`. In pretraining.py, line 534, the file is saved as `best_loss_fold0_st0.pth`. So in `pipeline1/configs/n_cf11_rot1.py`, line 18, we changed the "weight_file" value to `outputs/n_cf2_pretraining/eca_nfnet_l1b/best_loss_fold0_st0.pth`. 
     - Re-ran training to see if the path change fixes the problem (`job.126489.out`). 
-    - There are further errors. Starting at the top, in `pipeline1/utils/map_func.py`, line 114, adding parameter `exist_ok=True` to handle `FileExistsError: [Errno 17] File exists: '.temp_files1'`. Rerunning training (`job.126566.out`)
+    - There are further errors. Starting at the top, in `pipeline1/utils/map_func.py`, line 114, adding parameter `exist_ok=True` to handle `FileExistsError: [Errno 17] File exists: '.temp_files1'`. Reran training (`job.126566.out`), but error persists. Reran, attempting to debug (`job.127031.out`).
 - **Dovile's Project**
     - Fixed missing line for thyroid dataset. Ran training successfully (`job.126110.out`).
 
