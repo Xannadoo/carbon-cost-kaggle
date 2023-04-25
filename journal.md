@@ -38,7 +38,7 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
 ## Kaggle Project
 | Stage | Runs | Job | Splits | Job | W/ CarbonTracker | Job | Status | 
 | ----- | ---- | --- | ------ | --- | ---------------- | --- | ------ |
-| P1:pretrain | yes | `pt_wo_ct.out` | 7 files, 5 folds, 15 epochs | `job.124727.out` | runs desktop 18, not 9 | `job.123687.out` `job.125114.out` `job.125319.out`| done:3day limit, didn't print results, need to rerun. short test with commented out training. re-running w/o comments |
+| P1:pretrain | yes | `pt_wo_ct.out` | 7 files, 5 folds, 15 epochs | `job.124727.out` | runs desktop 18, not 9 | `job.123687.out` `job.125114.out` `job.126331.out`| done:3day limit, didn't print results. short test w/ commented out training. Rerunning w/ break |
 | P1:train | yes, hit timelimit | `job.122954.out` | 7 files, 5 folds, 15 epochs | `job.124717.out` | short test | `job.124726.out`,`job.125115.out` | failed, env or hardware issue?, need to wait for pretraining? |
 | P2:.. | not started | - | - | - | - | - | - |
 
