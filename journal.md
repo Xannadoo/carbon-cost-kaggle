@@ -42,13 +42,14 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
 | P1:train | yes, hit timelimit | `job.122954.out` | 7 files, 5 folds, 15 epochs | `job.124717.out` | short test | `job.124726.out`,`job.125115.out` | failed, env or hardware issue?, need to wait for pretraining? |
 | P2:.. | not started | - | - | - | - | - | - |
 
-
 ### 24 April 2023
 - **Kaggle Project**
     - Re-running pretraining (`job.126331.out`) with A100 GPU specified. Seems to be running
     - Running training with a print statement to see what cfg.weight_file is (`job.126397.out`). It is here: `outputs/n_cf2_pretraining/eca_nfnet_l1b/best_map_fold0_st0.pth`. In pretraining.py, line 534, the file is saved as `best_loss_fold0_st0.pth`. So in `pipeline1/configs/n_cf11_rot1.py`, line 18, we changed the "weight_file" value to `outputs/n_cf2_pretraining/eca_nfnet_l1b/best_loss_fold0_st0.pth`. 
     - Re-ran training to see if the path change fixes the problem (`job.126489.out`). 
-    - There are further errors. Starting at the top, in `pipeline1/utils/map_func.py`, line 114, adding parameter `exist_ok=True` to handle `FileExistsError: [Errno 17] File exists: '.temp_files1'`. Reran training (`job.126566.out`), but error persists. Reran, attempting to debug (`job.127031.out`).
+    - There are further errors. Starting at the top, in `pipeline1/utils/map_func.py`, line 114, adding parameter `exist_ok=True` to handle `FileExistsError: [Errno 17] File exists: '.temp_files1'`. Reran training (`job.126566.out`), but error persists. 
+    - Reran training, attempting to debug (`job.127031.out`). Seems to work, and failed due to time limit.
+    - Rerunning training with 3 hr time limit to verify that the break statement works as expected (`job.127113.out`).
 - **Dovile's Project**
     - Fixed missing line for thyroid dataset. Ran training successfully (`job.126110.out`).
 
