@@ -36,11 +36,16 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
 | Pcam-small | bug:`ValueError: No objects to concatenate`. folder in HPC seems empty | `job.123806.out` | - | - | - | - |
 
 ## Kaggle Project
-| Stage | Runs | Job | Splits | Job | W/ CarbonTracker | Job | Status | 
-| ----- | ---- | --- | ------ | --- | ---------------- | --- | ------ |
-| P1:pretrain | yes | `pt_wo_ct.out` | 7 files, 5 folds, 15 epochs | `job.124727.out` | runs desktop 18, not 9 | `job.123687.out` `job.125114.out` `job.126331.out`| done:3day limit, didn't print results. short test w/ commented out training. Rerunning w/ break |
-| P1:train | yes, hit timelimit | `job.122954.out` | 7 files, 5 folds, 15 epochs | `job.124717.out` | short test | `job.124726.out`,`job.125115.out` | failed, env or hardware issue?, need to wait for pretraining? |
+| Stage | Runs | Job | Splits | Splits Job | W/ CarbonTracker | Job | Status | 
+| ----- | ---- | --- | ------ | ---------- | ---------------- | --- | ------ |
+| P1:pretrain | yes | `pt_wo_ct.out` | 7 files, 5 folds, 15 epochs | `job.124727.out` | runs desktop 18, not 9 | `job.123687.out` `job.125114.out` `job.126331.out`| 3day limit, didn't print results. Short test w/ commented out training. Reran w/ breaks, timed out |
+| P1:train | yes, hit timelimit | `job.122954.out` | 7 files, 5 folds, 15 epochs | `job.124717.out` | short test, runs on desktop 22 | `job.124726.out`,`job.125115.out` | failed, path issue. Ran. |
 | P2:.. | not started | - | - | - | - | - | - |
+
+### 26 April 2023
+- **Kaggle Project**
+    - Pretraining ran with break statement for 2 days and did not finish, which is weird since it finished in 3 days without break statements. (`job.126331.out`) Need to re-run pretraining with more time. Ran on Desktop 
+    - Training job submmitted w/ 3day limit. (`job.127594.out`)
 
 ### 24 April 2023
 - **Kaggle Project**
