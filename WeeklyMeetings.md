@@ -59,6 +59,9 @@ This space is yours to add to as needed.
 #### Where do you need help from Dovile?
 * Is it expected that training only runs for 5-7/200 epochs?
 * Verify that how we ran the training is correct
+* Kimia dataset - use it or not? image/batch size 
+* Pcam data - what to do?
+* mamms data - what to do?
 
 #### Any other topics
 -
