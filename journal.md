@@ -41,7 +41,7 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
 | Stage | Runs | Job | Splits | Splits Job | W/ CarbonTracker | Job | Status | 
 | ----- | ---- | --- | ------ | ---------- | ---------------- | --- | ------ |
 | P1:pretrain | yes | `pt_wo_ct.out` | 6 files, 5 folds, 15 epochs | `job.124727.out` | runs desktop 18, (not 9), desktop 22 | `job.126331.out`,`job.127677.out`| Ran w/ break after 1 fold, 1st half. 2nd half |
-| P1:train | yes, hit timelimit | `job.122954.out` | 7 files, 5 folds, 15 epochs | `job.124717.out` | runs on desktop 22 & 18 | `job.127594.out` | Running. |
+| P1:train | yes, hit timelimit | `job.122954.out` | 7 files, 5 folds, 15 epochs | `job.124717.out` | runs on desktop 22 & 18 | `job.127594.out` | 4/7 Ran, others have file error. |
 | P2:.. | not started | - | - | - | - | - | - |
 
 ### 27 April 2023
@@ -52,7 +52,7 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
 - **Kaggle Project**
     - Pretraining ran with break statement for 2 days and did not finish, which is weird since it finished in 3 days without break statements. (`job.126331.out`) Need to re-run pretraining with more time. Ran on Desktop 18, which is unavailable and SLURM won't let me submit the job.
     - Removed specifying Desktop 19, and submitted pretraining (`job.127597.out`), but assuming it will fail because we won't be given desktop 18.
-    - Training job submmitted w/ 3day limit. (`job.127594.out`)
+    - Training job submmitted w/ 3day limit. (`job.127594.out`) 4/7 ran and have results. The other 3 have a file not found error
 - **RevisitingTransfer**
     - Submitting Training with freeze parameter set to `True` for ISIC, breast, chest, knee, and thyroid datasets.
 
