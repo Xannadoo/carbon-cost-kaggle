@@ -41,7 +41,7 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
 | Stage | Runs | Job | Splits | Splits Job | W/ CarbonTracker | Job | Status | 
 | ----- | ---- | --- | ------ | ---------- | ---------------- | --- | ------ |
 | P1:pretrain | yes | `pt_wo_ct.out` | 6 files, 5 folds, 15 epochs | `job.124727.out` | runs desktop 18, (not 9), desktop 22 | `job.126331.out`,`job.127677.out`| Ran w/ break after 1 fold, 1st half. 2nd half |
-| P1:train | yes, hit timelimit | `job.122954.out` | 7 files, 5 folds, 15 epochs | `job.124717.out` | runs on desktop 22 & 18 | `job.127594.out`, `job.127771.out` | 4/7 Ran, others have file error. Rerunning w/ bug fixes|
+| P1:train | yes, hit timelimit | `job.122954.out` | 7 files, 5 folds, 15 epochs | `job.124717.out` | runs on desktop 22 & 18 | `job.127594.out`,`job.127771.out` | 4/7 Ran, others have file error. Rerunning w/ bug fixes|
 | P2:.. | not started | - | - | - | - | - | - |
 
 ### 27 April 2023
