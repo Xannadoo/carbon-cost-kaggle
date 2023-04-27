@@ -47,6 +47,8 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
 ### 27 April 2023
 - **Kaggle Project**
     - Commented out the 3 files that have run in pretraining. Submitted a job to desktop 18 (`job.127677.out`)
+    - Fixing bugs for training. For config file `n_cf11_6`, changing `pipeline1/configs/n_cf11_6.py` line 17, "weight_file" to  'outputs/n_cf2_pretraining/dm_nfnet_f3/best_map_fold0_st0.pth'
+    - Fixing bugs for training. For config file `n_cf11_rot1`, changing `pipeline1/configs/n_cf11_rot1.py` line 17, "weight_file" to 'outputs/n_cf2_pretraining/eca_nfnet_l1b/best_map_fold0_st0.pth'
 
 ### 26 April 2023
 - **Kaggle Project**
