@@ -1,5 +1,7 @@
 # Journal to track what we have been up to.
 * [Training Status](#day-month-year)
+* [27 April 2023](#27-April-2023) 
+* [26 April 2023](#26-April-2023) 
 * [24 April 2023](#24-April-2023) 
 * [22 April 2023](#22-April-2023) 
 * [21 April 2023](#21-April-2023) 
@@ -38,9 +40,13 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
 ## Kaggle Project
 | Stage | Runs | Job | Splits | Splits Job | W/ CarbonTracker | Job | Status | 
 | ----- | ---- | --- | ------ | ---------- | ---------------- | --- | ------ |
-| P1:pretrain | yes | `pt_wo_ct.out` | 7 files, 5 folds, 15 epochs | `job.124727.out` | runs desktop 18, (not 9), desktop 22 | `job.123687.out` `job.125114.out` `job.126331.out`| 3day limit, didn't print results. Short test w/ commented out training. Reran w/ breaks, timed out |
-| P1:train | yes, hit timelimit | `job.122954.out` | 7 files, 5 folds, 15 epochs | `job.124717.out` | short test, runs on desktop 22 | `job.124726.out`,`job.125115.out` | failed, path issue. Ran. |
+| P1:pretrain | yes | `pt_wo_ct.out` | 6 files, 5 folds, 15 epochs | `job.124727.out` | runs desktop 18, (not 9), desktop 22 | `job.126331.out`,`job.127677.out`| Ran w/ break after 1 fold, 1st half. 2nd half |
+| P1:train | yes, hit timelimit | `job.122954.out` | 7 files, 5 folds, 15 epochs | `job.124717.out` | runs on desktop 22 | `job.127594.out` | Running. |
 | P2:.. | not started | - | - | - | - | - | - |
+
+### 27 April 2023
+- **Kaggle Project**
+    - Commented out the 3 files that have run in pretraining. Submitted a job to desktop 18 (`job.127677.out`)
 
 ### 26 April 2023
 - **Kaggle Project**
@@ -52,7 +58,7 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
 
 ### 24 April 2023
 - **Kaggle Project**
-    - Re-running pretraining (`job.126331.out`) with A100 GPU specified. Seems to be running
+    - Re-running pretraining (`job.126331.out`) with A100 GPU (desktop 22) specified. Ran, but hit time limit.
     - Running training with a print statement to see what cfg.weight_file is (`job.126397.out`). It is here: `outputs/n_cf2_pretraining/eca_nfnet_l1b/best_map_fold0_st0.pth`. In pretraining.py, line 534, the file is saved as `best_loss_fold0_st0.pth`. So in `pipeline1/configs/n_cf11_rot1.py`, line 18, we changed the "weight_file" value to `outputs/n_cf2_pretraining/eca_nfnet_l1b/best_loss_fold0_st0.pth`. 
     - Re-ran training to see if the path change fixes the problem (`job.126489.out`). 
     - There are further errors. Starting at the top, in `pipeline1/utils/map_func.py`, line 114, adding parameter `exist_ok=True` to handle `FileExistsError: [Errno 17] File exists: '.temp_files1'`. Reran training (`job.126566.out`), but error persists. 
@@ -64,7 +70,7 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
 ### 22 April 2023
 - **Kaggle Project**
     - Pretraining fails on Desktop 9, and runs on Desktop 18. Need to figure out how to exclude a particular desktop, or range of desktops.
-    - Resubmitted for desktop 18 (`job.125448.out`)
+    - Resubmitted for desktop 18 (`job.125448.out`). Hit time limit.
 - **Dovile's Project**
     - Re-ran making dataframes for mamms with new file location, with all images in one location (`job.125408.out`). Seems ok. Reran training (`job.125419.out`) and failed again. There was a missing "/" for making the dataframes. Fixed this error, re-made dataframes, and submitted the training job.
     - Made dataframes for the thyroid dataset locally by downloaded the images from the HPC. Submitted a job for training (`job.125550.out`). Failed due to missing line of code in fine_tuning.py, probably from commenting then uncommenting out chunks of code during testing.
@@ -76,6 +82,7 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
 - Training failed. Upon inspection of file paths, it seems to be off. Modified path and sent file to re-make dataframes (`job.125135.out`). Training after this failed to find images. Moved all images into a shared folder, and am re-running pips.job to make mamms dataframes.
 - Found a better meta-dataset to work with to find the data we need to estimate number of submissions per competitions. Filtered for competitions tagged as 'image' as the siim set has this tag, along with some of the others we considered. Trying to find some way of distinguishing code competitions from traditional ones, but this is not so obvious. It may be that they are 'kernal only submissions'. These competitions appeared around 2019, which seems to coincide with code competitions but this needs to be verified.
 - pretraining job submitted, with break statement put in after 1 epoch runs (`job.125319.out`)
+- Training job submitted, failed due to path issue (`job.124726.out`). Trying to debug, still getting file not found issue (`job.125115.out`).
 
 ### 20 April 2023
 - **For Dovile's Project**
@@ -84,6 +91,7 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
     - Chest dataframe file failed `job.124930.out` because of a hardware issue. The job happened to get the wrong Desktop, it seems.
 - **Kaggle Project**
     - figured out that both pretraining and training run 7 times, with 5 folds within each, and 15 epochs within each fold. Setting up CT to track a fold, run all epochs, and break after 1 fold to predict how many it would be with 5 folds.
+    - Job out file for training with the training commented out (`job.125114.out`). Just a short test to make sure it runs.
     - pretraining was commented out to make sure CT was in the correct place, and the break works. pretrain.job is ready to run (I do not currently have permissions for some unknown reason
     - training was set up with CT and break to stop after 1 fold runs. train.job is ready to run a short version to test first.
 
@@ -112,8 +120,8 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
     - Ran pips.job for **knee** data (`job.123744.out`). Error `ValueError: 7 is not in range`
     - Ran pips.job for **pcam-small** (`job.123749.out`). Typo in job file. Rerunning (`job.123806.out`). Error `ValueError: No objects to concatenate`
  - **For Kaggle project**:
-    - Re-ran pretraining with correct number of epochs (4 folds, 15 epochs each). Gave limit of 3 days, but requested more from HPC. 
-    - Need to get these results. (`job.123687.out`)
+    - Re-ran pretraining with correct number of epochs (5 folds, 15 epochs each). Gave limit of 3 days, but requested more from HPC. 
+    - CarbonTracker results did not print, as it was put in the wrong place. (`job.123687.out`). But runs on desktop desktop 18. 3 day limit was enough time to complete.
     - Training ran successfully, just ran out of time. (`job.122954.out`)
     - Ran training with actual training commented out to see number of epochs (`job.123717.out`)
     - Added CarbonTracker to training script. Need to re-run with correct epochs, more time, and comments removed.
