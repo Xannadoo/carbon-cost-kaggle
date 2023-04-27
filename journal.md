@@ -29,9 +29,9 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
 | Dataset | Dataframe Status | Job | Training Status (Freeze=False) | Job | Training Status (Freeze=True) | Job |
 | ------- | ---------------- | --- | ------------------------------ | --- | ----------------------------- | --- |
 | Isic | Done | deleted | Complete w/ correct image/batch size | `job.122952.out` | DONE | `job.127598.out` |
-| Breast | Done | deleted | Complete, correct image/batch size | `job.125144.out` | failed | `job.127599.out` |
-| Chest | Done | `job.124916.out` | Complete w/ correct image/batch size | `job.125142.out` | failed | `job.127600.out` |
-| Knee | Done | `job.124944.out` | Complete w/ correct image/batch size | `job.125145.out` | failed | `job.127601.out` |
+| Breast | Done | deleted | Complete, correct image/batch size | `job.125144.out` | rerunning | `job.127794.out` |
+| Chest | Done | `job.124916.out` | Complete w/ correct image/batch size | `job.125142.out` | rerunning | `job.127793.out` |
+| Knee | Done | `job.124944.out` | Complete w/ correct image/batch size | `job.125145.out` | rerunning | `job.127791.out` |
 | Thyroid | Done (locally) | no job file | Complete w/ correct image/batch size | `job.126110.out` | DONE | `job.127602.out` |
 | Kimia | Done | deleted | Complete (check image/batch size) | `job.123577.out`| - | - |
 | Mammograms | Done | `job.125408.out` | reran: bug:`ValueError` | `job.125368.out`| - | - |
@@ -45,6 +45,11 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
 | P2:.. | not started | - | - | - | - | - | - |
 
 ### 27 April 2023
+- **Revisiting Transfer**
+    - Resubmit training knee with freeze=True, specifying descktop 18 (`job.127791.out`)
+    - Resubmit training chest with freeze=True, specifying descktop 18 (`job.127793.out`)
+    - Resubmit training breast with freeze=True, specifying descktop 18 (`job.127794.out`)
+
 - **Kaggle Project**
     - Commented out the 3 files that have run in pretraining. Submitted a job to desktop 18 (`job.127677.out`)
     - Fixing bugs for training. For config file `n_cf11_6`, changing `pipeline1/configs/n_cf11_6.py` line 17, "weight_file" to  'outputs/n_cf2_pretraining/dm_nfnet_f3/best_map_fold0_st0.pth'
@@ -57,8 +62,10 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
     - Pretraining ran with break statement for 2 days and did not finish, which is weird since it finished in 3 days without break statements. (`job.126331.out`) Need to re-run pretraining with more time. Ran on Desktop 18, which is unavailable and SLURM won't let me submit the job.
     - Removed specifying Desktop 19, and submitted pretraining (`job.127597.out`), but failed because we weren't given desktop 18 (given desktop 21).
     - Training job submmitted w/ 3day limit. (`job.127594.out`) 4/7 ran and have results. The other 3 have a file not found error
+
 - **RevisitingTransfer**
-    - Submitting Training with freeze parameter set to `True` for ISIC, breast, chest, knee, and thyroid datasets.
+    - Submitting Training with freeze parameter set to `True` for ISIC, breast (`job.127599.out`), chest (`job.127600.out`), knee (`job.127601.out`), and thyroid datasets.
+    - Knee, chest, breast failed on desktop 21
 
 ### 24 April 2023
 - **Kaggle Project**
@@ -68,6 +75,7 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
     - There are further errors. Starting at the top, in `pipeline1/utils/map_func.py`, line 114, adding parameter `exist_ok=True` to handle `FileExistsError: [Errno 17] File exists: '.temp_files1'`. Reran training, but error persists. 
     - Reran training, attempting to debug (`job.127031.out`). Seems to work, and failed due to time limit.
     - Rerunning training with 3 hr time limit to verify that the break statement works as expected (`job.127113.out`).
+
 - **Dovile's Project**
     - Fixed missing line for thyroid dataset. Ran training successfully (`job.126110.out`).
 
