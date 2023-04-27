@@ -111,7 +111,7 @@ Predicted consumption for 200 epoch(s):
 
 
 ## Kaggle
-### Pipeline1/pretraining 
+### Pipeline1/pretraining HAVE 3/7
 Using config file: cait_pretraining `job.126331.out`
 ```
 Actual consumption for 1 epoch(s):
@@ -164,10 +164,12 @@ Predicted consumption for 5 epoch(s):
 ```
 
 Using config file: l1_pretraining
+
 Using config file: l1b_pretraining
+
 Using config file: l2_pretraining
 
-### Pipeline1/training
+### Pipeline1/training HAVE 4/7
 Using config file: n_cf11 `job.127594.out`
 ```
 Actual consumption for 1 epoch(s):
