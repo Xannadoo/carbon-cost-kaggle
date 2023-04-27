@@ -55,7 +55,7 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
 ### 26 April 2023
 - **Kaggle Project**
     - Pretraining ran with break statement for 2 days and did not finish, which is weird since it finished in 3 days without break statements. (`job.126331.out`) Need to re-run pretraining with more time. Ran on Desktop 18, which is unavailable and SLURM won't let me submit the job.
-    - Removed specifying Desktop 19, and submitted pretraining (`job.127597.out`), but assuming it will fail because we won't be given desktop 18.
+    - Removed specifying Desktop 19, and submitted pretraining (`job.127597.out`), but failed because we weren't given desktop 18 (given desktop 21).
     - Training job submmitted w/ 3day limit. (`job.127594.out`) 4/7 ran and have results. The other 3 have a file not found error
 - **RevisitingTransfer**
     - Submitting Training with freeze parameter set to `True` for ISIC, breast, chest, knee, and thyroid datasets.
