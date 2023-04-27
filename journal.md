@@ -86,7 +86,7 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
 - Training failed. Upon inspection of file paths, it seems to be off. Modified path and sent file to re-make dataframes (`job.125135.out`). Training after this failed to find images. Moved all images into a shared folder, and am re-running pips.job to make mamms dataframes.
 - Found a better meta-dataset to work with to find the data we need to estimate number of submissions per competitions. Filtered for competitions tagged as 'image' as the siim set has this tag, along with some of the others we considered. Trying to find some way of distinguishing code competitions from traditional ones, but this is not so obvious. It may be that they are 'kernal only submissions'. These competitions appeared around 2019, which seems to coincide with code competitions but this needs to be verified.
 - pretraining job submitted, with break statement put in after 1 epoch runs (`job.125319.out`)
-- Training job submitted, failed due to path issue (`job.124726.out`). Trying to debug, still getting file not found issue (`job.125115.out`).
+- Training job submitted, failed due to file not found. Trying to debug, still getting file not found issue (`job.125115.out`).
 
 ### 20 April 2023
 - **For Dovile's Project**
