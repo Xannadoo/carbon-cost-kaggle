@@ -111,6 +111,63 @@ Predicted consumption for 200 epoch(s):
 
 
 ## Kaggle
-### Pipeline1/pretraining
+### Pipeline1/pretraining 
+Using config file: cait_pretraining `job.126331.out`
+```
+Actual consumption for 1 epoch(s):
+        Time:   8:00:33
+        Energy: 2.800010 kWh
+        CO2eq:  299.601022 g
+        This is equivalent to:
+        2.786986 km travelled by car
+CarbonTracker:
+Predicted consumption for 5 epoch(s):
+        Time:   40:02:47
+        Energy: 14.000048 kWh
+        CO2eq:  1126.210028 g
+        This is equivalent to:
+        10.476372 km travelled by car
+```
+
+Using Config file: f1_pretraining `job.126331.out`
+```
+Actual consumption for 1 epoch(s):
+        Time:   11:55:04
+        Energy: 4.303103 kWh
+        CO2eq:  218.651446 g
+        This is equivalent to:
+        2.033967 km travelled by car
+CarbonTracker:
+Predicted consumption for 5 epoch(s):
+        Time:   59:35:21
+        Energy: 21.515517 kWh
+        CO2eq:  1024.948272 g
+        This is equivalent to:
+        9.534403 km travelled by car
+```
+
+Using config file: f3_pretraining `job.126331.out`
+```
+Actual consumption for 1 epoch(s):
+        Time:   22:14:23
+        Energy: 8.025735 kWh
+        CO2eq:  229.189462 g
+        This is equivalent to:
+        2.131995 km travelled by car
+CarbonTracker:
+Predicted consumption for 5 epoch(s):
+        Time:   111:11:54
+        Energy: 40.128676 kWh
+        CO2eq:  1194.298670 g
+        This is equivalent to:
+        11.109755 km travelled by car
+```
+
+Using config file: l1_pretraining
+Using config file: l1b_pretraining
+Using config file: l2_pretraining
+
 ### Pipeline1/training
+
+
 ### Pipeline2
