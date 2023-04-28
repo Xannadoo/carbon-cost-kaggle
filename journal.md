@@ -1,5 +1,4 @@
 # Journal to track what we have been up to.
-* [Training Status](#day-month-year)
 * [28 April 2023](#28-April-2023) 
 * [27 April 2023](#27-April-2023) 
 * [26 April 2023](#26-April-2023) 
@@ -24,7 +23,6 @@
 * [March 2023](#march-2023)
 * [February 2023](#february-2023)
 
-### day month year Training Status
 Carbon Footprint results located in [results.md](https://github.com/carbonCostKaggle/carbon-cost-kaggle/blob/main/results/results.md)
 ## Dovile's Project
 | Dataset | Dataframe Status | Job | Training Status (Freeze=False) | Job | Training Status (Freeze=True) | Job |
