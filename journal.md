@@ -28,12 +28,12 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
 ## Dovile's Project
 | Dataset | Dataframe Status | Job | Training Status (Freeze=False) | Job | Training Status (Freeze=True) | Job |
 | ------- | ---------------- | --- | ------------------------------ | --- | ----------------------------- | --- |
-| Isic | Done | deleted | Complete w/ correct image/batch size | `job.122952.out` | DONE | `job.127598.out` |
-| Breast | Done | deleted | Complete, correct image/batch size | `job.125144.out` | rerunning | `job.127794.out` |
-| Chest | Done | `job.124916.out` | Complete w/ correct image/batch size | `job.125142.out` | rerunning | `job.127793.out` |
-| Knee | Done | `job.124944.out` | Complete w/ correct image/batch size | `job.125145.out` | rerunning | `job.127791.out` |
-| Thyroid | Done (locally) | no job file | Complete w/ correct image/batch size | `job.126110.out` | DONE | `job.127602.out` |
-| Kimia | Done | deleted | Complete (check image/batch size) | `job.123577.out`| - | - |
+| Isic | DONE | deleted | DONE w/ correct image/batch size | `job.122952.out` | DONE | `job.127598.out` |
+| Breast | DONE | deleted | DONE, correct image/batch size | `job.125144.out` | DONE | `job.127794.out` |
+| Chest | DONE | `job.124916.out` | DONE w/ correct image/batch size | `job.125142.out` | rerunning | `job.127793.out` |
+| Knee | DONE | `job.124944.out` | DONE w/ correct image/batch size | `job.125145.out` | rerunning | `job.127791.out` |
+| Thyroid | DONE (locally) | no job file | DONE w/ correct image/batch size | `job.126110.out` | DONE | `job.127602.out` |
+| Kimia | DONE | deleted | DONE (check image/batch size) | `job.123577.out`| - | - |
 | Mammograms | Done | `job.125408.out` | reran: bug:`ValueError` | `job.125368.out`| - | - |
 | Pcam-small | bug:`ValueError: No objects to concatenate`. folder in HPC seems empty | `job.123806.out` | - | - | - | - |
 
