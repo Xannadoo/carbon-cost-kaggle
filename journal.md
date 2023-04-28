@@ -68,7 +68,7 @@ _ **Kaggle Project**
 - **Meta Kaggle**
     - Isolated image code competitions. 
         + 108 image competitions - 36 of which are code competitions
-        + Distribution of submmission is different for traditional and code comps:![submission distributions](submission_dist.png)
+        + Distribution of submmission is different for traditional and code comps: ![submission_dist](img/submission_dist.png)
         + Submissions per comp:
             * Min:  767
             * Mean: 24894.4
