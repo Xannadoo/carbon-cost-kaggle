@@ -17,9 +17,6 @@ Predicted consumption for 200 epoch(s):
         5.092145 km travelled by car
 ```
 
-### Kimia	
-Ran for /200 then /200 Epochs
-
 ### Breast `job.127794.out`
 Ran for 10/200 then 4/200 Epochs
 ```
@@ -58,8 +55,23 @@ Predicted consumption for 200 epoch(s):
 ```
 
 
-### Knee 
-Ran for /200 then /200 Epochs
+### Knee `job.127791.out`
+Ran for 5/200 then 4/200 Epochs
+```
+Actual consumption for 1 epoch(s):
+        Time:   0:35:19
+        Energy: 0.023113 kWh
+        CO2eq:  2.126414 g
+        This is equivalent to:
+        0.019781 km travelled by car
+CarbonTracker:
+Predicted consumption for 200 epoch(s):
+        Time:   117:43:07
+        Energy: 4.622639 kWh
+        CO2eq:  452.843127 g
+        This is equivalent to:
+        4.212494 km travelled by car
+```
 
 ### Thyroid `job.127602.out`
 Ran for 6/200 then 4/200 Epochs
@@ -78,6 +90,9 @@ Predicted consumption for 200 epoch(s):
         This is equivalent to:
         1.256592 km travelled by car
 ```
+
+### Kimia	
+Ran for /200 then /200 Epochs
 
 ### Mammograms	
 ### Pcam-small
