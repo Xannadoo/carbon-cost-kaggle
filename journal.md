@@ -1,5 +1,6 @@
 # Journal to track what we have been up to.
 * [Training Status](#day-month-year)
+* [28 April 2023](#28-April-2023) 
 * [27 April 2023](#27-April-2023) 
 * [26 April 2023](#26-April-2023) 
 * [24 April 2023](#24-April-2023) 
@@ -49,8 +50,9 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
 - **Revisiting Transfer**
     - We have the results for 5/8 datasets with an ImageNet base and both freeze as True and False. We will try to go from here to estimate the carbon footprint of training these models.
 
-_ **Kaggle Project**
-    - asdf
+- **Kaggle Project**
+    - The data removed itself from the HPC, sometime in the last 24 hours. I don't know how. We have decided to make estimations of the remainging aspects of training based on the results we have. 
+    - Started re-uploading and unzipping data to the HPC. If we get to it, we will see if we can get the code to run for the remainder of the project. But the priority now is writing.
 
 ### 27 April 2023
 - **Revisiting Transfer**
