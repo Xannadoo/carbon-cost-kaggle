@@ -1,6 +1,6 @@
 # Dee and Sanna's Weekly Meeting Notes
 * [1st May 2023](#1st-may-2023)
-* [27th April 2023]("27th-april-2023)
+* [28th April 2023](#28th-april-2023)
 * [20th April 2023](#20th-april-2023)
 * [10th April 2023](#10th-april-2023)
 * [4th April 2023](#4th-april-2023)
@@ -37,31 +37,34 @@ This space is yours to add to as needed.
 
 
 
-### 27th April 2023
+### 28th April 2023
 
 #### Who did you help this week?
--
+- Sanna helped Dee remember that we don't have to re-run all the code, but we can comment out the files that ran (there are 7) for training and pretraining, and the job will finish in less time without requiring more than 3 days.
 
 #### Who helped you this week?
 - Joachim helped me figure out how to specify a desktop when submitting jobs.
 
 #### What did you achieve?
 * Made dataframes of all but 1 dataset (pcam-small)
-* Ran training with CarbonTracker on all but 1 dataset with freeze=False (waiting on a few results to finish still)
+* Ran training with CarbonTracker on all but 1 dataset with freeze=False for RevisitingTransfer (waiting on a few results to finish still)
+* Rain training with freeze=True for RevisitingTransfer
+* Have half of the results for pipeline1, both pretraining and training.
 
 #### What did you struggle with?
 * Package version issues on the HPC
 
 #### What would you like to work on next week?
-* Run training on all datasets with freeze=True
+* Finish training on all datasets with freeze=True
 * Enterpreting the results
+* Writing
 
 #### Where do you need help from Dovile?
-* Is it expected that training only runs for 5-7/200 epochs?
+* Is it expected that training only runs for 5-7/200 epochs? Seems to be correct. When freeze=false, the first chunk of epochs is training on the classification layer, and the second chunk is training the weights. 
 * Verify that how we ran the training is correct
-* Kimia dataset - use it or not? image/batch size 
-* Pcam data - what to do?
-* mamms data - what to do?
+* Kimia dataset - she used it very little in the beginning. The pcam dataset is similar, but the kimia dataset is smaller. So she didn't run many experiments on it before dropping it completely. 
+* Pcam data - we are skipping for now
+* mamms data - we are skipping for now
 
 #### Any other topics
 -
