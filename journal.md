@@ -44,6 +44,13 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
 | P1:train | yes, hit timelimit | `job.122954.out` | 7 files, 5 folds, 15 epochs | `job.124717.out` | runs on desktop 22 & 18 | `job.127594.out`,`job.127771.out` | 4/7 Ran, others have file error. Rerunning w/ bug fixes|
 | P2:.. | not started | - | - | - | - | - | - |
 
+### 28 April 2023
+- **Revisiting Transfer**
+    - We have the results for 5/8 datasets with an ImageNet base and both freeze as True and False. We will try to go from here to estimate the carbon footprint of training these models.
+
+_ **Kaggle Project**
+    - asdf
+
 ### 27 April 2023
 - **Revisiting Transfer**
     - Resubmit training knee with freeze=True, specifying descktop 18 (`job.127791.out`)
