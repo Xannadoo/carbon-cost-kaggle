@@ -64,7 +64,29 @@ _ **Kaggle Project**
     - Fixing bugs for training. For config file `n_cf11_rot1`, changing `pipeline1/configs/n_cf11_rot1.py` line 17, "weight_file" to 'outputs/n_cf2_pretraining/eca_nfnet_l1b/best_map_fold0_st0.pth'
     - Training job running (`job.127771.out`) to see if 2/3 bugs are fixed.
     - Pretraining seems to be missing the step that would create the file used for the training using config file: n_cf11_7. Once pre-training is finished again, need to comment all but the last line in `run_pretraining.py` to create the file used for training. After that, will need to run line 6 in training file `run_train.py`. 
-
+    
+- **Meta Kaggle**
+    - Isolated image code competitions. 
+        + 108 image competitions - 36 of which are code competitions
+        + Distribution of submmission is different for traditional and code comps:![submission distributions](submission_dist.png)
+        + Submissions per comp:
+            * Min:  767
+            * Mean: 24894.4
+            * Max:  81524
+            
+        + Teams per comp:
+            * Min:  82
+            * Mean: 1337.0
+            * Max: 3900
+            
+        + Submissions per team: 
+            * Min:  1.73
+            * Mean: 18.1
+            * Max:  33.7
+        + Considering that there may be a difference between high performers and regular participants:
+        ![SIIM_high_public](img/SIIM_high_public.png)
+        ![SIIM_high_private](img/SIIM_high_private.png)
+        
 ### 26 April 2023
 - **Kaggle Project**
     - Pretraining ran with break statement for 2 days and did not finish, which is weird since it finished in 3 days without break statements. (`job.126331.out`) Need to re-run pretraining with more time. Ran on Desktop 18, which is unavailable and SLURM won't let me submit the job.
