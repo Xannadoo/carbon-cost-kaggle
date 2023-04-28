@@ -39,8 +39,24 @@ Predicted consumption for 200 epoch(s):
 ```
 
 
-### Chest 
-Ran for /200 then /200 Epochs
+### Chest `job.127793.out`
+Ran for 11/200 then 4/200 Epochs
+```
+Actual consumption for 1 epoch(s):
+        Time:   0:51:27
+        Energy: 0.033632 kWh
+        CO2eq:  3.497739 g
+        This is equivalent to:
+        0.032537 km travelled by car
+CarbonTracker:
+Predicted consumption for 200 epoch(s):
+        Time:   171:29:31
+        Energy: 6.726421 kWh
+        CO2eq:  716.266333 g
+        This is equivalent to:
+        6.662943 km travelled by car
+```
+
 
 ### Knee 
 Ran for /200 then /200 Epochs
