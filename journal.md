@@ -1,4 +1,5 @@
 # Journal to track what we have been up to.
+* [29 April 2023](#29-April-2023) 
 * [28 April 2023](#28-April-2023) 
 * [27 April 2023](#27-April-2023) 
 * [26 April 2023](#26-April-2023) 
@@ -40,9 +41,16 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
 ## Kaggle Project
 | Stage | Runs | Job | Splits | Splits Job | W/ CarbonTracker | Job | Status | 
 | ----- | ---- | --- | ------ | ---------- | ---------------- | --- | ------ |
-| P1:pretrain | yes | `pt_wo_ct.out` | 6 files, 5 folds, 15 epochs | `job.124727.out` | runs desktop 18, (not 9), desktop 22 | `job.126331.out`,`job.127677.out`| Ran w/ break after 1 fold, 1st half. 2nd half |
+| P1:pretrain | yes | `pt_wo_ct.out` | 6 files, 5 folds, 15 epochs | `job.124727.out` | runs desktop 18, (not 9), desktop 22 | `job.126331.out`,`job.128592.out`| Ran w/ break after 1 fold, 1st half. 2nd half |
 | P1:train | yes, hit timelimit | `job.122954.out` | 7 files, 5 folds, 15 epochs | `job.124717.out` | runs on desktop 22 & 18 | `job.127594.out`,`job.127771.out` | 4/7 Ran, others have file error. Rerunning w/ bug fixes|
 | P2:.. | not started | - | - | - | - | - | - |
+
+### 29 April 2023
+- **Kaggle Project**
+    - Resubmitted job for making folds (`job.128591.out`)
+    - Resubmitted job for the final 4 files in pretraining (`job.128592.out`)
+    - Resubmitted job for the final 3 files in training, to run after pretraining (`job.128594.out`)
+    - Apparently when reverting commits on git it will not save any files that are ignored on gitignore, even if they were not saved in the commit that is being reverted. Lesson learned.
 
 ### 28 April 2023
 - **Revisiting Transfer**
@@ -59,10 +67,10 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
     - Resubmit training breast with freeze=True, specifying descktop 18 (`job.127794.out`)
 
 - **Kaggle Project**
-    - Commented out the 3 files that have run in pretraining. Submitted a job to desktop 18 (`job.127677.out`)
+    - Commented out the 3 files that have run in pretraining. Submitted a job to desktop 18 (`job.127677.out`). Failed because data has disappeared from the HPC.
     - Fixing bugs for training. For config file `n_cf11_6`, changing `pipeline1/configs/n_cf11_6.py` line 17, "weight_file" to  'outputs/n_cf2_pretraining/dm_nfnet_f3/best_map_fold0_st0.pth'
     - Fixing bugs for training. For config file `n_cf11_rot1`, changing `pipeline1/configs/n_cf11_rot1.py` line 17, "weight_file" to 'outputs/n_cf2_pretraining/eca_nfnet_l1b/best_map_fold0_st0.pth'
-    - Training job running (`job.127771.out`) to see if 2/3 bugs are fixed.
+    - Training job running (`job.127771.out`) to see if 2/3 bugs are fixed. Failed beacuse of the data disappearing from the HPC.
     - Pretraining seems to be missing the step that would create the file used for the training using config file: n_cf11_7. Once pre-training is finished again, need to comment all but the last line in `run_pretraining.py` to create the file used for training. After that, will need to run line 6 in training file `run_train.py`. 
     
 - **Meta Kaggle**
