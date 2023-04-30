@@ -1,0 +1,37 @@
+CompetitionId,Title,HostSegmentTitle,RewardQuantity,TotalTeams,TotalSubmissions,subs_per_team
+10686,PetFinder.my Adoption Prediction,Featured,25000.0,1788,3136,1.7539149888143177
+13251,iMet Collection 2019 - FGVC6,Research,0.0,442,767,1.7352941176470589
+13435,Aerial Cactus Identification,Playground,,1221,6776,5.54954954954955
+13836,Cassava Leaf Disease Classification,Research,18000.0,3900,81524,20.903589743589745
+14241,Severstal: Steel Defect Detection,Featured,120000.0,2427,51874,21.373712402142562
+14774,APTOS 2019 Blindness Detection,Featured,50000.0,2928,71433,24.396516393442624
+14897,Bengali.AI Handwritten Grapheme Classification,Research,10000.0,2059,38927,18.90577950461389
+16017,Kannada MNIST,Playground,,1212,11077,9.139438943894389
+18278,Flower Classification with TPUs,Playground,,848,10387,12.24882075471698
+18647,Prostate cANcer graDe Assessment (PANDA) Challenge,Featured,25000.0,1010,19723,19.527722772277226
+19231,Google Landmark Recognition 2020,Research,25000.0,736,18783,25.52038043478261
+19233,Google Landmark Retrieval 2020,Research,25000.0,541,4983,9.210720887245841
+19989,Global Wheat Detection,Research,15000.0,1742,8187,4.699770378874857
+19990,Lyft Motion Prediction for Autonomous Vehicles,Featured,30000.0,935,14900,15.935828877005347
+20604,OSIC Pulmonary Fibrosis Progression,Featured,55000.0,2097,44505,21.223175965665234
+22307,RSNA STR Pulmonary Embolism Detection,Featured,30000.0,784,11408,14.551020408163266
+22990,HuBMAP - Hacking the Kidney,Research,60000.0,1200,34699,28.91583333333333
+23823,Human Protein Atlas - Single Cell Classification,Featured,25000.0,757,19058,25.175693527080583
+23870,RANZCR CLiP - Catheter and Line Position Challenge,Featured,50000.0,1547,28112,18.171945701357465
+24286,Shopee - Price Match Guarantee,Featured,30000.0,2426,51077,21.053998351195382
+25383,PetFinder.my - Pawpularity Contest,Research,25000.0,3537,47037,13.298558100084817
+25563,Plant Pathology 2021 - FGVC8,Research,0.0,626,10483,16.74600638977636
+25980,Hotel-ID to Combat Human Trafficking 2021 - FGVC8,Research,0.0,92,1083,11.771739130434783
+26680,SIIM-FISABIO-RSNA COVID-19 Detection,Featured,100000.0,1305,32307,24.75632183908046
+27923,UW-Madison GI Tract Image Segmentation,Research,25000.0,1548,40956,26.45736434108527
+29653,RSNA-MICCAI Brain Tumor Radiogenomic Classification,Featured,30000.0,1555,27466,17.663022508038587
+29761,Google Landmark Retrieval 2021,Research,0.0,263,6782,25.787072243346007
+29762,Google Landmark Recognition 2021,Research,0.0,383,8717,22.759791122715406
+30201,Sartorius - Cell Instance Segmentation,Featured,75000.0,1505,32813,21.80265780730897
+31703,TensorFlow - Help Protect the Great Barrier Reef,Research,150000.0,2025,60934,30.090864197530863
+34547,HuBMAP + HPA - Hacking the Human Body,Research,60000.0,1175,39568,33.674893617021276
+34970,Image Matching Challenge 2022,Research,10000.0,642,14170,22.07165109034268
+35150,Hotel-ID to Combat Human Trafficking 2022 - FGVC9,Research,0.0,82,1712,20.878048780487806
+36363,RSNA 2022 Cervical Spine Fracture Detection,Featured,30000.0,883,12871,14.576443941109853
+36414,Google Universal Image Embedding,Research,50000.0,1022,20984,20.532289628180038
+37333,Mayo Clinic - STRIP AI,Research,10000.0,888,6980,7.86036036036036
