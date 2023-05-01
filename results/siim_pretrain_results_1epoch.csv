@@ -2,7 +2,7 @@ training_file,time,energy(kWh),CO2eq(g),distance(km)
 cait_pretraining,8:00:33,2.800010,299.601022,2.786986
 f1_pretraining,11:55:04,4.303103,218.651446,2.033967
 f3_pretraining,22:14:23,8.025735,229.189462,2.131995
-l1_pretraining,,,,
+l1_pretraining,11:25:01,2.749729,167.122448,1.554627
 l1b_pretraining,,,,
 l2_pretraining,,,,
 n_cf2_pretraining,,,,
