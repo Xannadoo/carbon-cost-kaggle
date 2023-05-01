@@ -51,7 +51,7 @@ Predicted consumption for 5 epoch(s):
         11.109755 km travelled by car
 ```
 
-Using config file: l1_pretraining ```job.128646.out```
+Using config file: l1_pretraining ```job.128646.out``` desktop18 NVIDIA A30 GPU
 ```
 CarbonTracker:
 Actual consumption for 1 epoch(s):
