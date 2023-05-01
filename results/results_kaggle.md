@@ -1,5 +1,5 @@
 ## Kaggle
-### Pipeline1/pretraining HAVE 3/7
+### Pipeline1/pretraining HAVE 4/7
 Using config file: cait_pretraining `job.126331.out`
 ```
 Actual consumption for 1 epoch(s):
@@ -51,11 +51,30 @@ Predicted consumption for 5 epoch(s):
         11.109755 km travelled by car
 ```
 
-Using config file: l1_pretraining
+Using config file: l1_pretraining ```job.128646.out```
+```
+CarbonTracker:
+Actual consumption for 1 epoch(s):
+        Time:   11:25:01
+        Energy: 2.749729 kWh
+        CO2eq:  167.122448 g
+        This is equivalent to:
+        1.554627 km travelled by car
+CarbonTracker:
+Predicted consumption for 5 epoch(s):
+        Time:   57:05:03
+        Energy: 13.748647 kWh
+        CO2eq:  631.333879 g
+        This is equivalent to:
+        5.872873 km travelled by car
+CarbonTracker: Finished monitoring.
+```
 
 Using config file: l1b_pretraining
 
 Using config file: l2_pretraining
+
+Using config file: n_cf2_pretraining
 
 ### Pipeline1/training HAVE 4/7
 Using config file: n_cf11 `job.127594.out`
