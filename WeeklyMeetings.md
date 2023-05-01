@@ -15,26 +15,28 @@
 ### 1st May 2023
 
 #### Who did you help this week?
--
+- Each other, trying to stay sane and not descend completely into panic.
 
 #### Who helped you this week?
--
+- We spoke with Dovile as we weren't sure whether we were running her code correctly - the number of epoch seemed smaller than we expected ~she had similar numbers so that was reassuring.
 
 #### What did you achieve?
-* 
+* We have some carbon results. Not as many as we had hoped to have achieved, but we have decided that we will continue with what we have as time is running short.
+* Have results from meta-analysis as to how many competitions, how many submissions etc.
+* Starting writing draft paper
 
 #### What did you struggle with?
-* 
+* Code not playing.
+* Doubts over whether we have enough and whether it is reliable and generalisable enough.
 
 #### What would you like to work on next week?
-* 
+* Writing paper up, finding the holes.
 
 #### Where do you need help from Veronika?
-* 
+* Are we where we need to be, or have we missed something glaring - what we can do about it given the deadline is way way too soon.
 
 #### Any other topics
-This space is yours to add to as needed.
-
+We think you need at least 3 kaggle competitions to send a washed-up actor into space.
 
 
 ### 28th April 2023
