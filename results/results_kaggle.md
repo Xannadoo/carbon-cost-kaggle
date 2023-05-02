@@ -110,7 +110,23 @@ CarbonTracker: Finished monitoring.
 
 
 Using config file: n_cf2_pretraining ```job.128646.out``` desktop18 NVIDIA A30 GPU
-
+```
+CarbonTracker:
+Actual consumption for 1 epoch(s):
+        Time:   10:59:26
+        Energy: 2.629704 kWh
+        CO2eq:  71.061763 g
+        This is equivalent to:
+        0.661040 km travelled by car
+CarbonTracker:
+Predicted consumption for 5 epoch(s):
+        Time:   54:57:12
+        Energy: 13.148518 kWh
+        CO2eq:  431.759478 g
+        This is equivalent to:
+        4.016367 km travelled by car
+CarbonTracker: Finished monitoring.
+```
 
 
 #######################################################################################################
