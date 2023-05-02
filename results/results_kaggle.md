@@ -89,9 +89,11 @@ Predicted consumption for 5 epoch(s):
 CarbonTracker: Finished monitoring.
 ```
 
-Using config file: l2_pretraining
+Using config file: l2_pretraining ```job.128646.out``` desktop18 NVIDIA A30 GPU
 
 Using config file: n_cf2_pretraining
+
+#######################################################################################################
 
 ### Pipeline1/training HAVE 4/7
 Using config file: n_cf11 `job.127594.out`
