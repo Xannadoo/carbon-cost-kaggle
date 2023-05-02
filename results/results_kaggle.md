@@ -1,5 +1,5 @@
 ## Kaggle
-### Pipeline1/pretraining HAVE 5/7
+### Pipeline1/pretraining HAVE 6/7
 Using config file: cait_pretraining `job.126331.out`
 ```
 Actual consumption for 1 epoch(s):
