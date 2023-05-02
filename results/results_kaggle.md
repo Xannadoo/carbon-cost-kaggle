@@ -116,7 +116,7 @@ Using config file: n_cf2_pretraining ```job.128646.out``` desktop18 NVIDIA A30 G
 #######################################################################################################
 
 ### Pipeline1/training HAVE 4/7
-Using config file: n_cf11 `job.127594.out`
+Using config file: n_cf11 `job.127594.out`  desktop18 NVIDIA A30 GPU
 ```
 Actual consumption for 1 epoch(s):
         Time:   1:38:42
@@ -133,7 +133,7 @@ Predicted consumption for 5 epoch(s):
         0.395289 km travelled by car
 ```
 
-Using config file: n_cf11_1 `job.127594.out`
+Using config file: n_cf11_1 `job.127594.out` desktop18 NVIDIA A30 GPU
 ```
 Actual consumption for 1 epoch(s):
         Time:   7:33:10
@@ -154,7 +154,7 @@ Using config file: n_cf11_6
 
 Using config file: n_cf11_7
 
-Using config file: n_cf11_9 `job.127594.out`
+Using config file: n_cf11_9 `job.127594.out` desktop18 NVIDIA A30 GPU
 ```
 Actual consumption for 1 epoch(s):
         Time:   1:24:16
@@ -171,7 +171,7 @@ Predicted consumption for 5 epoch(s):
         0.466414 km travelled by car
 ```
 
-Using config file: n_cf11_10 `job.127594.out`
+Using config file: n_cf11_10 `job.127594.out` desktop18 NVIDIA A30 GPU
 ```
 Actual consumption for 1 epoch(s):
         Time:   1:50:25
