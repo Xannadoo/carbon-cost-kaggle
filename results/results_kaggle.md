@@ -1,5 +1,5 @@
 ## Kaggle
-### Pipeline1/pretraining HAVE 6/7
+### Pipeline1/pretraining
 Using config file: cait_pretraining `job.126331.out`
 ```
 Actual consumption for 1 epoch(s):
@@ -131,7 +131,7 @@ CarbonTracker: Finished monitoring.
 
 #######################################################################################################
 
-### Pipeline1/training HAVE 4/7
+### Pipeline1/training
 Using config file: n_cf11 `job.127594.out`  desktop18 NVIDIA A30 GPU
 ```
 Actual consumption for 1 epoch(s):
