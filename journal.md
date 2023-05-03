@@ -36,13 +36,13 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
 | ---------------- | -------------------- | ------------ | --------------- | ------------ | ---------------- | ------------ |
 | Kimia | DONE | deleted | DONE (check image/batch size) | `job.123577.out`| - | - |
 | Mammograms | Done | `job.125408.out` | reran: bug:`ValueError` | `job.125368.out`| - | - |
-| Pcam-small | bug:`ValueError: No objects to concatenate`. folder in HPC seems empty | `job.123806.out` | - | - | - | - |
+| Pcam-small | `ValueError: No objects to concatenate`. folder empty on HPC | `job.123806.out` | - | - | - | - |
 
 ## Kaggle Project
 | Stage | Runs | Job | Splits | Splits Job | W/ CarbonTracker | Job | Status | 
 | ----- | ---- | --- | ------ | ---------- | ---------------- | --- | ------ |
 | P1:pretrain | yes | `pt_wo_ct.out` | 6 files, 5 folds, 15 epochs | `job.124727.out` | runs desktop 18, (not 9), desktop 22 | `job.126331.out`,`job.128592.out`| Ran w/ break after 1 fold, 1st half. 2nd half |
-| P1:train | yes, hit timelimit | `job.122954.out` | 7 files, 5 folds, 15 epochs | `job.124717.out` | runs on desktop 22 & 18 | `job.127594.out`,`job.127771.out` | 5/7 Ran. Rerunning w/ bug fixes|
+| P1:train | yes, hit timelimit | `job.122954.out` | 7 files, 5 folds, 15 epochs | `job.124717.out` | runs on desktop 22 & 18 | `job.127594.out`,`job.128647.out` | Ran. Reran w/ bug fixes|
 | P2:.. | not started | - | - | - | - | - | - |
 
 ### 29 April 2023
