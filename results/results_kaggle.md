@@ -166,9 +166,43 @@ Predicted consumption for 5 epoch(s):
         1.566840 km travelled by car
 ```
 
-Using config file: n_cf11_6
+Using config file: n_cf11_6 ```job.128647.out``` desktop22 NVIDIA A100-PCIE-40GB
+```
+CarbonTracker:
+Actual consumption for 1 epoch(s):
+        Time:   1:59:30
+        Energy: 0.530860 kWh
+        CO2eq:  19.907256 g
+        This is equivalent to:
+        0.185184 km travelled by car
+CarbonTracker:
+Predicted consumption for 5 epoch(s):
+        Time:   9:57:29
+        Energy: 2.654301 kWh
+        CO2eq:  107.277989 g
+        This is equivalent to:
+        0.997935 km travelled by car
+CarbonTracker: Finished monitoring.
+```
 
-Using config file: n_cf11_7
+Using config file: n_cf11_7 ```job.128647.out``` desktop22 NVIDIA A100-PCIE-40GB
+```
+Actual consumption for 1 epoch(s):
+        Time:   1:46:22
+        Energy: 0.285051 kWh
+        CO2eq:  11.972152 g
+        This is equivalent to:
+        0.111369 km travelled by car
+CarbonTracker:
+Predicted consumption for 5 epoch(s):
+        Time:   8:51:50
+        Energy: 1.425256 kWh
+        CO2eq:  58.111582 g
+        This is equivalent to:
+        0.540573 km travelled by car
+CarbonTracker: Finished monitoring.
+```
+
 
 Using config file: n_cf11_9 `job.127594.out` desktop18 NVIDIA A30 GPU
 ```
@@ -204,8 +238,24 @@ Predicted consumption for 5 epoch(s):
         0.319430 km travelled by car
 ```
 
-Using config file: n_cf11_rot1
-
+Using config file: n_cf11_rot1 `job.127594.out` desktop18 NVIDIA A30 GPU
+```
+CarbonTracker:
+Actual consumption for 1 epoch(s):
+        Time:   0:52:31
+        Energy: 0.170745 kWh
+        CO2eq:  6.787123 g
+        This is equivalent to:
+        0.063136 km travelled by car
+CarbonTracker:
+Predicted consumption for 5 epoch(s):
+        Time:   4:22:35
+        Energy: 0.853726 kWh
+        CO2eq:  33.062484 g
+        This is equivalent to:
+        0.307558 km travelled by car
+CarbonTracker: Finished monitoring.
+```
 
 
 ### Pipeline2
