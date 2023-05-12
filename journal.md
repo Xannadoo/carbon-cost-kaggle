@@ -47,8 +47,8 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
 
 ### 29 April 2023
 - **Kaggle Project**
-    - Resubmitted job for making folds (`job.128591.out`)
-    - Submit job to unzip data with longer time limit (`job..out`)
+    - Resubmitted job for making folds
+    - Submit job to unzip data with longer time limit
     - Resubmit job for the final 4 files in pretraining (`job.128646.out`) 
     - Resubmit job for the final 3 files in training, to run after pretraining (`job.128647.out`) ` sbatch --dependency=afterok:128646 train.job`
     - Apparently when reverting commits on git it will not save any files that are ignored on gitignore, even if they were not saved in the commit that is being reverted. Lesson learned.
