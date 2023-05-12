@@ -163,8 +163,8 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
     - Results for the **kimia** dataset (`job.123577.out`)
     - Need to get chest, knee, mammograms, pcam-small, chest, and thyroid datasplits working
     - Attempting to debug with 1 dataset at a time.
-    - Ran pips.job for **mammmograms** data (`job.123802.out`). Dataframes are not changed... the data on purrlab seems to be structured differently.
-    - Fixed path on `data_imports.py` for mammograms data. Ran pips.job again (`job.123802.out`).
+    - Ran pips.job for **mammmograms** data. Dataframes are not changed... the data on purrlab seems to be structured differently.
+    - Fixed path on `data_imports.py` for mammograms data. Ran pips.job again.
     - Ran train.job for **mammograms** data (`job.123808.out`). Error `ValueError: Asked to retrieve element 0, but the Sequence has length 0`
     - Ran pips.job for **thyroid** data. Error `AttributeError: module 'pandas' has no attribute 'read_xml'`. Need to get help from HPC about this Tuesday (tomorrow) between 9-11.
     - Ran pips.job for **chest** data (`job.123721.out`). Error `ValueError: 7 is not in range`
