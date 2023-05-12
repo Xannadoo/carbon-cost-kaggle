@@ -68,7 +68,7 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
     - Resubmit training breast with freeze=True, specifying descktop 18 (`job.127794.out`)
 
 - **Kaggle Project**
-    - Commented out the 3 files that have run in pretraining. Submitted a job to desktop 18 (`job.127677.out`). Failed because data has disappeared from the HPC.
+    - Commented out the 3 files that have run in pretraining. Submitted a job to desktop 18. Failed because data has disappeared from the HPC.
     - Fixing bugs for training. For config file `n_cf11_6`, changing `pipeline1/configs/n_cf11_6.py` line 17, "weight_file" to  'outputs/n_cf2_pretraining/dm_nfnet_f3/best_map_fold0_st0.pth'
     - Fixing bugs for training. For config file `n_cf11_rot1`, changing `pipeline1/configs/n_cf11_rot1.py` line 17, "weight_file" to 'outputs/n_cf2_pretraining/eca_nfnet_l1b/best_map_fold0_st0.pth'
     - Training job running (`job.127771.out`) to see if 2/3 bugs are fixed. Failed beacuse of the data disappearing from the HPC.
