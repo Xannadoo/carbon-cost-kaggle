@@ -103,8 +103,8 @@ Carbon Footprint results located in [results.md](https://github.com/carbonCostKa
     - Training job submmitted w/ 3day limit. (`job.127594.out`) 4/7 ran and have results. The other 3 have a file not found error
 
 - **RevisitingTransfer**
-    - Submitting Training with freeze parameter set to `True` for ISIC, breast (`job.127599.out`), chest (`job.127600.out`), knee (`job.127601.out`), and thyroid datasets.
-    - Knee, chest, breast failed on desktop 21
+    - Submitting Training with freeze parameter set to `True` for ISIC, breast, chest, knee, and thyroid datasets.
+    - Knee, chest, breast failed on desktop 21: `Internal: no kernel image is available for execution on the device`
 
 ### 24 April 2023
 - **Kaggle Project**
